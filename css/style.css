@@ -583,3 +583,67 @@ body {
       }
     }
   }
+
+  /* STyling for FULLPAGE DARK SEARCH SCREEN */
+  .dark-screen {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: 0.9;
+    background-color: black;
+    z-index: 1000;
+    text-align: center;
+}
+
+#close-search {
+    position: absolute;
+    font-size: 2.0em;
+    font-weight: bold;
+    right: 2rem;
+    top: 2rem;
+    color: white;
+    border: none;
+    opacity: 1;
+}
+
+#close-search:hover {
+    box-shadow: none;
+    color: red !important;
+}
+
+.search-form {
+    position: absolute;
+    top: 38%;
+    width: 80%;
+    font-size: 2rem;
+    margin-left: 10.5%;
+}
+
+#search {
+    top: 45%;
+    font-size: 2rem;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 4px solid rgb(245, 8, 8);
+    padding-bottom: 1.3rem;
+    padding-left: 3.7rem;
+}
+
+#search::placeholder {
+    color: white;
+}
+
+#search:focus {
+    box-shadow: none;
+}
+
+#search-lens {
+    position: absolute;
+    color: red;
+    top: 1rem;
+    left: 0;
+}
+  
+  /* END of STyling for FULLPAGE DARK SEARCH SCREEN */

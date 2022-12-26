@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     
     <title>Brian's homepage</title>
+
 </head>
 <body>
     <header id="header" class="fixed-top">
@@ -35,7 +36,21 @@
         </div>
     </header>
 
+    <!-- START OF FULLPAGE DARK SEARCH DIV -->
+    <div class="dark-screen d-none" id="dark-screen">
+        <button type="button" id="close-search" class="btn-close btn-close-white text-white" onclick="close_darkscreen()" aria-label="Close"></button>
+
+        <form action="{% url 'brian_data:search_result' %}" method="get" class="search-form">
+            <div class="position-relative">
+                <input type="text" name="search" id="search" class="form-control" pattern=".*\S.*" placeholder="Search in brianobot.online" autofocus>
+                <i class="fa fa-search" id="search-lens"></i>
+            </div>
+        </form>
+    </div>
+    <!-- END OF FULLPAGE DARK SEARCH DIV -->
+
     
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
