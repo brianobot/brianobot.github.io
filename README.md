@@ -4,8 +4,8 @@ Personal Page Hosted on Github
 
 ## Page Content
 - [**Homepage**](https://brianobot.github.io/) : Personal introduction and overview, Links to Activity Updates and Socials
-- [**About**](https://brianobot.github.io/about.html) : Comprehensive Personal and Professional Information, including but not limited to 
-  - Services
+- [**About**](https://brianobot.github.io/about.html) : Comprehensive Personal and Professional Information, including but not limited to; 
+  - Services (Personal and Professional)
   - Contact details
   - Social Media profiles, 
   - Personal Projects overview
