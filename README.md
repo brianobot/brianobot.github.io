@@ -6,11 +6,11 @@ Personal Page Hosted on Github
 - Homepage: Personal introduction and overview, Links to Activity Updates and Socials
 - About: Comprehensive Personal and Professional Information, including but not limited to 
   - Services
-  - Social Media profiles, 
   - Contact details
+  - Social Media profiles, 
   - Personal Projects overview
-  - Collboration Overview
-  - Open-source contributions, etc
+  - Project Collborations Overview
+  - Open-source Contributions, etc
   
 - Link to latest version of my [Resume](https://raw.githubusercontent.com/brianobot/Resume/master/_Resume.pdf)
 
