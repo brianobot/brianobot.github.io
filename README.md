@@ -3,8 +3,8 @@
 Personal Page Hosted on Github
 
 ## Page Content
-- Homepage: Personal introduction and overview, Links to Activity Updates and Socials
-- About: Comprehensive Personal and Professional Information, including but not limited to 
+- **Homepage** : Personal introduction and overview, Links to Activity Updates and Socials
+- **About** : Comprehensive Personal and Professional Information, including but not limited to 
   - Services
   - Contact details
   - Social Media profiles, 
@@ -12,7 +12,7 @@ Personal Page Hosted on Github
   - Project Collborations Overview
   - Open-source Contributions, etc
   
-- Link to latest version of my [Resume](https://raw.githubusercontent.com/brianobot/Resume/master/_Resume.pdf)
+- Link to latest version of my [**Resume**](https://raw.githubusercontent.com/brianobot/Resume/master/_Resume.pdf)
 
 ## Personal Details
 - Name: Brian Obot
