@@ -3,8 +3,8 @@
 Personal Page Hosted on Github
 
 ## Page Content
-- **Homepage** : Personal introduction and overview, Links to Activity Updates and Socials
-- **About** : Comprehensive Personal and Professional Information, including but not limited to 
+- [**Homepage**](https://brianobot.github.io/) : Personal introduction and overview, Links to Activity Updates and Socials
+- [**About**](https://brianobot.github.io/about.html) : Comprehensive Personal and Professional Information, including but not limited to 
   - Services
   - Contact details
   - Social Media profiles, 
@@ -15,10 +15,10 @@ Personal Page Hosted on Github
 - Link to latest version of my [**Resume**](https://raw.githubusercontent.com/brianobot/Resume/master/_Resume.pdf)
 
 ## Personal Details
-- Name: Brian Obot
-- Title: Engr.
-- Profession: Electrical/Electronic Engineer, Software Engineer
-- Nationality: Nigeria
+- **Name**: Brian Obot
+- **Title**: Engr.
+- **Profession**: Electrical/Electronic Engineer, Software Engineer
+- **Nationality**: Nigeria
 
 
 ## Page Technology Stack
