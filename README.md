@@ -18,7 +18,7 @@ Personal Page Hosted on Github
 - **Name**: Brian Obot
 - **Title**: Engr.
 - **Profession**: Electrical/Electronic Engineer, Software Engineer
-- **Nationality**: Nigeria
+- **Nationality**: Nigeria ![](https://github.com/csmoore/country-flag-icons/raw/master/country-flags-4x3-png/ng.png)
 
 
 ## Page Technology Stack
