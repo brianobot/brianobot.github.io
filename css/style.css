@@ -704,10 +704,10 @@ body {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 400px) {
   #hero {
     margin-bottom: 0;
-    height: 70vh;
+    height: 55vh;
   }
 
   #hero .container {

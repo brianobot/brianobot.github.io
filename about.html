@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    
+    <title>Brian's homepage</title>
+
+</head>
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex aligh-items-center">
+
+            <h1 class="logo me-auto pt-2">
+                <a href="index.html">Brian's Portfolio</a>
+            </h1>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="index.html" class="nav-link"> Home</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <!-- TODO: link to document should point to the file in the master branch of my resume repo -->
+                    <li><a href="https://github.com/brianobot/Resume/raw/master/_Resume.pdf" class="btn resume-btn mx-2 pe-3" download><i class="fa fa-file mx-2"></i> Get my resume</a></li>
+                </ul>
+                <i class="nav-link fa fa-search mx-3" onclick="show_darkscreen()"></i>
+                <i class="bi mobile-nav-toggle bi-list"></i>
+    
+            </nav>
+        </div>
+    </header>
+
+    <!-- START OF FULLPAGE DARK SEARCH DIV -->
+    <div class="dark-screen d-none" id="dark-screen">
+        <button type="button" id="close-search" class="btn-close btn-close-white text-white" onclick="close_darkscreen()" aria-label="Close"></button>
+
+        <form action="{% url 'brian_data:search_result' %}" method="get" class="search-form">
+            <div class="position-relative">
+                <input type="text" name="search" id="search" class="form-control" pattern=".*\S.*" placeholder="Search page in brianobot.io" autofocus>
+                <i class="fa fa-search" id="search-lens"></i>
+            </div>
+        </form>
+    </div>
+
+    <!-- START OF MAIN PAGE CONTENT -->
+    <section id="hero" style="margin-top: 4.5rem;">
+        <div class="container pt-5 text-center">
+            <h2 class="text-white display-1 mb-1" style="font-size: 4rem!important;">About Me</h2>
+            <i class="bi bi-person text-white" style="font-size: 120px;"></i>
+        </div>
+    </section>
+    <hr class="my-0">
+
+    
+    <!-- my works section -->
+    <section class="project">
+    <div class="container project-section">
+        <div class="text-center mb-3" style="font-size: 3rem!important;">My Projects</div>
+        <div class="row gy-4 gx-3">
+            <div class="col-md-6 dir">
+                <div class="project-file">
+                    <div class="file-head">
+                        <span class="folder-icon"><a href="https://www.github/brianobot/project-title" target="_blank">📁</a></span>
+                        <span class="project-title">
+                            <span title="Click to visit Github repo"><a href="https://www.github/brianobot/project-title" target="_blank" class="project-link"> Title blao blao bloa </a></span> 
+                            <span>Project Folder</span> 
+                        </span>
+                    </div>
+                    <hr class="my-0 mb-1">
+                    <div class="file-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 dir">
+                <div class="project-file">
+                    <div class="file-head">
+                        <span class="folder-icon"><a href="https://www.github/brianobot/project-title" target="_blank">📁</a></span>
+                        <span class="project-title">
+                            <span title="Click to visit Github repo"><a href="https://www.github/brianobot/project-title" target="_blank" class="project-link"> Title blao blao bloa </a></span> 
+                            <span>Project Folder</span> 
+                        </span>
+                    </div>
+                    <hr class="my-0 mb-1">
+                    <div class="file-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 dir">
+                <div class="project-file">
+                    <div class="file-head">
+                        <span class="folder-icon"><a href="https://www.github/brianobot/project-title" target="_blank">📁</a></span>
+                        <span class="project-title">
+                            <span title="Click to visit Github repo"><a href="https://www.github/brianobot/project-title" target="_blank" class="project-link"> Title blao blao bloa </a></span> 
+                            <span>Project Folder</span> 
+                        </span>
+                    </div>
+                    <hr class="my-0 mb-1">
+                    <div class="file-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 dir">
+                <div class="project-file">
+                    <div class="file-head">
+                        <span class="folder-icon"><a href="https://www.github/brianobot/project-title" target="_blank">📁</a></span>
+                        <span class="project-title">
+                            <span title="Click to visit Github repo"><a href="https://www.github/brianobot/project-title" target="_blank" class="project-link"> Title blao blao bloa </a></span> 
+                            <span>Project Folder</span> 
+                        </span>
+                    </div>
+                    <hr class="my-0 mb-1">
+                    <div class="file-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 dir">
+                <div class="project-file">
+                    <div class="file-head">
+                        <span class="folder-icon"><a href="https://www.github/brianobot/project-title" target="_blank">📁</a></span>
+                        <span class="project-title">
+                            <span title="Click to visit Github repo"><a href="https://www.github/brianobot/project-title" target="_blank" class="project-link"> Title blao blao bloa </a></span> 
+                            <span>Project Folder</span> 
+                        </span>
+                    </div>
+                    <hr class="my-0 mb-1">
+                    <div class="file-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 dir">
+                <div class="project-file">
+                    <div class="file-head">
+                        <span class="folder-icon"><a href="https://www.github/brianobot/project-title" target="_blank">📁</a></span>
+                        <span class="project-title">
+                            <span title="Click to visit Github repo"><a href="https://www.github/brianobot/project-title" target="_blank" class="project-link"> Title blao blao bloa </a></span> 
+                            <span>Project Folder</span> 
+                        </span>
+                    </div>
+                    <hr class="my-0 mb-1">
+                    <div class="file-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod odit inventore, totam ex distinctio
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a class="btn btn-outline-dark p-3 px-4 mb-3 mt-5 text-center" href="https://github.com/brianobot?tab=repositories">See More Projects</a>
+        </div>
+    </div>
+    </section>
+    <!-- end of my works section -->
+    <hr class="mt-0 pt-0">
+    
+    <!-- section link section -->
+    <div class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="text-center text-dark">
+                        <h3 class="text-dark my-5 display-4">Start your next project with me</h3>
+                        <a class="btn btn-outline-dark p-3 px-4 mb-4" href="#social-section">Let's Talk</a>
+    
+                        <div class="social-icons d-flex justify-content-center" id="social-section"
+                            style="margin: 0 auto;">
+                            <a href="" class="px-2"><i class="bi bi-linkedin" style="font-size:2rem"></i></a>
+                            <a href="" class="px-2"><i class="bi bi-twitter" style="font-size:2rem"></i></a>
+                            <a href="" class="px-2"><i class="bi bi-whatsapp" style="font-size:2rem"></i></a>
+                            <a href="" class="px-2"><i class="bi bi-facebook" style="font-size:2rem"></i></a>
+                            <a href="" class="px-2"><i class="bi bi-github" style="font-size:2rem"></i></a>
+                            <a href="" class="px-2"><i class="bi bi-discord" style="font-size:2rem"></i></a>
+                            <a href="" class="px-2"><i class="bi bi-slack" style="font-size:2rem"></i></a>
+                            <a href="" class="px-2"><i class="bi bi-envelope" style="font-size:2rem"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of social link section -->
+    
+    <hr>
+    <!-- END OF MAIN PAGE CONTENT -->
+
+    <!-- END OF FULLPAGE DARK SEARCH DIV -->
+    <footer>  
+    </footer>
+
+    <!-- Buy me coffee widget -->
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="brianobot" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

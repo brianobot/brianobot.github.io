@@ -1,0 +1,91 @@
+/* Stylesheet speicific to the about page */
+
+#hero {
+    height: 40vh;
+}
+
+@media (min-width: 400px) {
+    #hero {
+      margin-bottom: 0;
+      height: 50vh;
+    }
+
+@media (min-width: 600px) {
+    #hero {
+        margin-bottom: 0;
+        height: 50vh;
+    }
+
+.social-icons {
+    flex-wrap: wrap;
+}
+
+.social-icons a:hover {
+    margin-top: -7px;
+}
+
+section[class="project"] {
+    background-color: beige;
+}
+
+.project-section {
+    font-family: Consolas, 'Courier New', monospace;
+}
+
+ 
+.project-section .row .dir {
+    height: 12.3rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+    overflow-y: auto;
+}
+
+@media (min-width: 750px) {
+    .project-section .row .dir:nth-of-type(odd) {
+        margin-left: -13px;
+    }
+    .project-section .row .dir:nth-of-type(even)  {
+        margin-left: 13px;
+    }
+}
+
+.project-section .row .dir:hover {
+    background-color: rgb(223, 197, 164)!important;
+    cursor: pointer;
+}
+
+.project-file {
+    padding-bottom: 5px;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+    margin-left: 10px;
+}
+
+.project-link {
+    font-weight: bold;
+    color: black!important;
+}
+
+.project-link:hover {
+    text-decoration: underline!important;
+}
+
+.folder-icon {
+    font-size: 2rem;
+}
+
+.folder-icon:hover {
+    font-size: 2.2rem!important;
+    margin-top: -2px;
+}
+
+.file-head {
+    display: flex;
+}
