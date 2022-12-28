@@ -575,3 +575,19 @@ body {
     height: 70vh;
   }
 }
+
+.footer-social-icons a {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin: 0 3px;
+}
+
+.footer-social-icons a:hover {
+  margin-top: -8px;
+}
