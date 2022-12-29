@@ -10,8 +10,14 @@ function close_darkscreen(){
     console.log(dark_screen.classList)
 }
 
-function searchPage(query){
-    find();
+
+function searchPageFunction(search_input_id){
+    console.log("Starting search function...");
+    console.log("Search Input Id = ", search_input_id);
+    query = document.getElementById(search_input_id).value; 
+    console.log("Search Key = ", query);
+    last_input = query[-1];
+    console.log(last_input);
 }
 
 /**

@@ -41,9 +41,9 @@
     <div class="dark-screen d-none" id="dark-screen">
         <button type="button" id="close-search" class="btn-close btn-close-white text-white" onclick="close_darkscreen()" aria-label="Close"></button>
 
-        <form action="{% url 'brian_data:search_result' %}" method="get" class="search-form">
+        <form action="" method="get" class="search-form">
             <div class="position-relative">
-                <input type="text" name="search" id="search" class="form-control" pattern=".*\S.*" placeholder="Search page in brianobot.io" autofocus>
+                <input type="text" name="search" id="search" class="form-control" pattern=".*\S.*" placeholder="Search page in brianobot.io" autofocus onkeyup="searchPageFunction('search')">
                 <i class="fa fa-search" id="search-lens"></i>
             </div>
         </form>
