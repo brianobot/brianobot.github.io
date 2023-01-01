@@ -1,64 +1,50 @@
 /* Stylesheet speicific to the about page */
-
 #hero {
     height: 40vh;
 }
 
+/* Start of Responsive styling for Page Hero Section */
 @media (min-width: 400px) {
     #hero {
-      margin-bottom: 0;
-      height: 50vh;
+        margin-bottom: 0;
+        height: 50vh;
     }
+}
 
 @media (min-width: 600px) {
     #hero {
         margin-bottom: 0;
         height: 50vh;
     }
-
-.social-icons {
-    flex-wrap: wrap;
 }
+/* End of Responsive styling for Page Hero Section */
 
-.social-icons a:hover {
-    margin-top: -7px;
-}
-
+/* Start of Styling for Projects Section */
 section[class="project"] {
-    background-color: beige;
+    /* TODO: reconsider usefulness of bg color below */
+    /* background-color: beige; */
 }
 
 .project-section {
+    /* TODO: find a robotic font for project section */
     font-family: Consolas, 'Courier New', monospace;
 }
 
- 
-.project-section .row .dir {
-    height: 12.3rem;
+.project-file {
+    max-height: 13rem;
     border: 1px solid gray;
     border-radius: 4px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-color: rgb(243, 239, 234);
     padding-top: 0.5rem;
     padding-bottom: 0.7rem;
+    padding-bottom: 5px;
     overflow-y: auto;
 }
 
-@media (min-width: 750px) {
-    .project-section .row .dir:nth-of-type(odd) {
-        margin-left: -13px;
-    }
-    .project-section .row .dir:nth-of-type(even)  {
-        margin-left: 13px;
-    }
-}
-
-.project-section .row .dir:hover {
-    background-color: rgb(223, 197, 164)!important;
+.project-file:hover {
+    background-color: rgb(157, 156, 156)!important;
     cursor: pointer;
-}
-
-.project-file {
-    padding-bottom: 5px;
 }
 
 .project-title {
@@ -77,15 +63,61 @@ section[class="project"] {
     text-decoration: underline!important;
 }
 
-.folder-icon {
+.project-file-icon {
     font-size: 2rem;
+    margin: 1px 10px;
 }
 
-.folder-icon:hover {
+.project-file-icon:hover {
     font-size: 2.2rem!important;
     margin-top: -2px;
 }
 
-.file-head {
+.project-file-header {
     display: flex;
 }
+
+.project-file-title {
+    display: flex;
+    flex-direction: column;
+    line-height: 19px;
+}
+
+.project-file-body {
+    padding: 0 20px;
+    padding-bottom: 5px;
+    line-height: 19px;
+}
+
+.project-tech-stack {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.project-tech-stack i {
+    font-size: 1rem;
+    margin: 0 5px;
+    margin-top: 3px;
+}
+/* End of styling for Projects Section */
+
+
+/* Start of Styling for social icons section */
+.social-icons {
+    flex-wrap: wrap;
+}
+
+.social-icons a:hover {
+    margin-top: -7px;
+}
+
+#social-section {
+    margin: 0 auto;
+}
+
+.about-social-icons {
+    font-size: 3rem;
+    margin: 5px 10px;
+}
+/* End of Styling for social icons section */

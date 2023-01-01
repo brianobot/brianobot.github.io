@@ -320,6 +320,12 @@ body {
     display: block;
   }
   
+  /* Sections */
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+
   /* Greetings */
   .greetings {
     font-size: 25px !important;
