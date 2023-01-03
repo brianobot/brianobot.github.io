@@ -504,6 +504,8 @@ body {
   height: 70vh;
   background: grey;
   background-image: url("../images/bg.png");
+  background-image: url("../images/bg.webp");
+  background-image: url("../images/bg.avif");
   background-color: rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-blend-mode: overlay;
