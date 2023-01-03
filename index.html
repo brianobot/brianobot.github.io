@@ -7,10 +7,10 @@
     <meta name="description" content="Personal Portfolio Page of Brian Obot">
 
 
-    <link rel="stylesheet" href="bootstrap/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload stylesheet" href="bootstrap/bootstrap-icons/bootstrap-icons.css">
+    <link rel="preload stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preload stylesheet" href="fontawesome-free/css/all.min.css">
+    <link rel="preload stylesheet" href="css/style.css">
     
     <title>Brian's homepage</title>
 
@@ -74,7 +74,7 @@
                 <!-- First column for my name and others  -->
                 <div class="col-md-12 pt-5 mb-5">
                     <h2 class="greetings">Hello there! <span class="loading-after">I am</span> <br><hr> 
-                        <span style="font-size: 10px; margin-right: 10px;">Engr.</span><span class="my-name">Brian Obot <span class="trade-mark"><sup>&trade;</sup></span></span>
+                        <span style="font-size: 10px; margin-right: 10px;">Engr.</span><span class="my-name">Brian Obot <span class="trade-mark fs-1"><sup>&trade;</sup></span></span>
                     </h2>
                     <h3>
                         <div>
@@ -92,11 +92,11 @@
     <section class="text-center text-white my-4 mt-0 bg-dark pt-5">
         <h4 class="h1">Refer Me to Earn</h4>
         <p class="mb-0">Help me grow my connections and network and stand the chance to earn some commission </p>
-        <p class="my-0 py-0 mb-1">Earn up to 10% on sealed deals/contracts initiated by you. <a href="" title="coming soon!"><sub>(Terms and Conditions Apply)</sub></a></p>
-        <small><a href="">Read More</a></small>
+        <p class="my-0 py-0 mb-1">Earn up to 10% on sealed deals/contracts initiated by you. <a href="extras.html" class="text-warning" title="coming soon!"><sub>(Terms and Conditions Apply)</sub></a></p>
+        <small><a href="extras.html" class="text-warning">Read More on the process</a></small>
         <div class="contacts">
-          <a class="btn btn-outline-light p-3 px-4 mb-4 mt-2 text-muted disabled" href="about.html#social-section" title="coming soon!">Get Referral Link</a>
-          <br><small class="text-muted">Coming soon!</small>
+          <a href="extras.html" class="btn btn-outline-light p-3 px-4 mb-4 mt-2 text-light disabled" title="coming soon!">Get Referral Link</a>
+          <br><small class="text-warning">⏱ Coming soon!</small>
         </div>
     </section>
     <!-- End of Referral Section -->
@@ -185,9 +185,11 @@
               </tr>
             </tbody>
           </table>
-	
-	      <a href="" target="_blank" class="btn btn-primary mt-3 rounded-pill pe-3"><img loading="lazy" src="images/zoom_img.png" width="30px" height="28.5px" alt="Zoom Meeting icon"> Schedule Zoom Call with Brian</a>
- 
+
+        <div class="text-center">
+	        <a href="extras.html" target="_blank" class="btn btn-primary mt-3 rounded-pill pe-3"><img loading="lazy" src="images/zoom_img.png" width="30px" height="28.5px" alt="Zoom Meeting icon"> Schedule Zoom Call with Brian</a>
+        </div>
+
         </div>
 
         <!--Grid column-->
@@ -199,7 +201,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2020 Copyright:
-      <a class="text-white" href="index.html">Brian Obot &trade;</a>
+      <a class="text-white" href="index.html">Brian Obot &trade; aka ngin-b &trade;</a>
     </div>
     <!-- Copyright -->
   </footer>
@@ -207,7 +209,7 @@
     <!-- Buy me coffee widget -->
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="brianobot" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
     
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script async src="bootstrap/js/bootstrap.min.js"></script>
+    <script async src="js/main.js"></script>
 </body>
 </html>
