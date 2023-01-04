@@ -586,6 +586,39 @@ body {
   }
 }
 
+/* Styling for service section */
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.services-list div {
+  background: darkgrey;
+  color: #fff;
+  padding: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+} 
+
+.services-list div i{
+font-size: 50px;
+margin-bottom: 30px;
+}
+
+.services-list div:hover{
+background: lightskyblue;
+transform: translateY(-10px);
+color: #fff;
+}
+
+.services-list div a:hover{
+  color: #fff;
+}
+
 .footer-social-icons a {
   display: inline-flex;
   width: 50px;
