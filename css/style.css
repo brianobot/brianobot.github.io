@@ -396,11 +396,13 @@ body {
     text-transform: uppercase;
   }
   
-  .navbar-form-search {
-    position: relative;
-    .form-control {
-      width: 250px;
-    }
+  /* TODO: Confirm that these stylings don't break anything */
+  /* .navbar-form-search {
+      position: relative;
+      .form-control {
+        width: 250px;
+      }
+
     .btn {
       border: 0;
       background: transparent;
@@ -432,7 +434,7 @@ body {
         width: 300px;
       }
     }
-  }
+  } */
 
   /* STyling for FULLPAGE DARK SEARCH SCREEN */
   .dark-screen {
