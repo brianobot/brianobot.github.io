@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Theme</title>
+
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .theme-light {
+          --color-primary: #0060df ;
+          --color-secondary: #fbfbfe ;
+          --color-accent: #fd6f53;
+          --font-color-one: #000000;
+          --font-color-two: #000000;
+        }
+  
+        .theme-dark {
+          --color-primary: #17ed90;
+          --color-secondary: #243133 ;
+          --color-accent: #12cdea;
+          --font-color-one: #ffffff;
+          --font-color-two: #ffffff;
+        }
+
+        .container { 
+            display: flex;
+            width: 100%;
+            height: 100%;
+            background-color: var(--color-secondary);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container h2 {
+            color: var(--font-color-one);
+        }
+
+        .container button {
+            position: absolute;
+            left: 10px;
+            bottom: 20px;
+            color: var(--font-color-one);
+            background-color: var(--color-primary);
+            padding: 10px 20px;
+            border: 0;
+            border-radius: 5px;
+        }
+      </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Theme Switcher</h2>
+        <button id="theme-switch" class="btn btn-primary px-3" onclick="toggleTheme()">Switch</button>
+    </div>
+    
+
+    <script>
+        // define variables to hold the classname for the 2 themes
+        let theme_dark = 'theme-dark';
+        let theme_light = 'theme-light';
+        let theme_switch = document.getElementById("theme-switch");
+
+        // function to set to a given theme/color-scheme
+        function setTheme(themeName){
+            console.log("setting theme to ", themeName);
+            localStorage.setItem('theme', themeName);
+            document.documentElement.className = themeName;
+            if (themeName === theme_dark){
+                theme_switch.innerHTML = "Switch  ☀"
+            } else {
+                theme_switch.innerHTML = "Switch  🌙"
+            }
+        }
+
+        // function to toggle between light and dark theme
+        function toggleTheme(){
+            if (localStorage.getItem('theme') === theme_dark){
+                setTheme(theme_light);
+            } else {
+                setTheme(theme_dark);
+            }
+        }
+
+        // Immediately invoke the function to set the theme on initial load
+        (function (){
+            if (localStorage.getItem('theme') === theme_dark){
+                setTheme(theme_dark);
+            } else {
+                setTheme(theme_light);
+            }
+        })();
+    </script>
+</body>
+</html>
