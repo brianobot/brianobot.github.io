@@ -1,6 +1,10 @@
 /*------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.bg-dark {
+  background-color: #112436 !important;
+}
+
 body {
     font-family: "Roboto", "Open Sans", sans-serif;
     color: #444444;
