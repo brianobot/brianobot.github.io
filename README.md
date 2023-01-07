@@ -4,14 +4,15 @@ Personal Page Hosted on Github
 
 ## Page Content
 - [**Homepage**](https://brianobot.github.io/) : Personal introduction and overview, Links to Activity Updates and Socials
-- [**About**](https://brianobot.github.io/about.html) : Comprehensive Personal and Professional Information, including but not limited to; 
+- [**About**](https://brianobot.github.io/about.html/) : Comprehensive Personal and Professional Information, including but not limited to; 
   - Services (Personal and Professional)
   - Contact details
   - Social Media profiles, 
   - Personal Projects overview
   - Project Collborations Overview
   - Open-source Contributions, etc
-  
+- [**Extras**](https://brianobot.github.io/extras.html/): Extra none self-branding content that would be placed on the site.
+- [**Custom 404 Page**](https://brianobot.github.io/404.html/): Entertaining and Calming Error Message, Link to Home Page, and Link to Report Issue through a mail or social link
 - Link to latest version of my [**Resume**](https://raw.githubusercontent.com/brianobot/Resume/master/_Resume.pdf)
 
 ## Personal Details
