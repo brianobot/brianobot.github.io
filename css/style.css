@@ -22,7 +22,7 @@ body {
     text-decoration: none;
   }
   
-  h2,
+  h2
   {
     font-family: "Raleway", sans-serif;
   }
@@ -62,9 +62,7 @@ body {
     max-height: 40px;
   }
   
-  /**
-    * Appointment Button *
-    */
+  /** Resume Button */
   .resume-btn {
     background: white;
     border: 1px solid black!important;
@@ -208,9 +206,7 @@ body {
     }
   }
   
-  /**
-    * Mobile Navigation 
-    */
+  /** Mobile Navigation */
   .mobile-nav-toggle {
     color: #2c4964;
     font-size: 28px;
@@ -399,45 +395,6 @@ body {
     text-transform: uppercase;
   }
   
-  /* TODO: Confirm that these stylings don't break anything */
-  /* .navbar-form-search {
-      position: relative;
-      .form-control {
-        width: 250px;
-      }
-
-    .btn {
-      border: 0;
-      background: transparent;
-      font-size: 18px;
-      &:active,
-      &:hover,
-      &:focus {
-        color: #000;
-        outline: none;
-        box-shadow: none;
-      }
-    }
-    
-    .search-form-container {
-      text-align: right;
-      position: absolute;
-      width: 300px;
-      overflow: hidden;
-      background: #fff;
-      right: 60px;
-      top: 0;
-      z-index: 9;
-      transition: all .3s ease-in-out;
-      &.hdn {
-        width: 0;
-      }
-      
-      .search-input-group {
-        width: 300px;
-      }
-    }
-  } */
 
   /* STyling for FULLPAGE DARK SEARCH SCREEN */
   .dark-screen {

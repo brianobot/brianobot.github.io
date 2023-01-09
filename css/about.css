@@ -20,11 +20,6 @@
 /* End of Responsive styling for Page Hero Section */
 
 /* Start of Styling for Projects Section */
-section[class="project"] {
-    /* TODO: reconsider usefulness of bg color below */
-    /* background-color: beige; */
-}
-
 .project-section {
     /* TODO: find a robotic font for project section */
     font-family: Consolas, 'Courier New', monospace;
