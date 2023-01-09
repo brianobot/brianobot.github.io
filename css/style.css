@@ -635,3 +635,11 @@ color: #fff;
 .footer-social-icons a:hover {
   margin-top: -8px;
 }
+
+:root {
+  --bs-body-font-weight: 370!important;
+}
+
+h6 {
+  font-size: 1.1rem!important;
+}
