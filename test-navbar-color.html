@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Page of Engr. Brian Obot, featuring his Services, Projects, and Open-source software contributions">
+
+    <!-- Open Grapg tags -->
+    <meta property="og:title" content="Engr. Brian Obot Portfolio" />
+    <meta property="og:url" content="https://brianobot.github.io/" />
+    <meta property="og:description" content="Personal Portfolio Page of Engr. Brian Obot, featuring his Services, Projects, and Open-source software contributions" />
+    <meta property="og:image" content="bg-webp" />
+    <meta property="og:type" content="portfolio website" />
+    <meta property="og:locale" content="en_GB" />
+
+    <link rel="preload stylesheet" as="style" href="bootstrap/bootstrap-icons/bootstrap-icons.css">
+    <link rel="preload stylesheet" as="style" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preload stylesheet" as="style" href="fontawesome-free/css/all.min.css">
+    <link rel="preload stylesheet" as="style" href="css/style.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image\png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image\png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" type="image\png" href="favicon_io/site.webmanifest">
+    
+    <title>Brian's Portfolio | Extras </title>
+
+    <style>
+        .bg-custom-2 {
+            background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%)!important;
+        }
+    </style>
+
+    <!-- Google Adsense link -->
+    <script async defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8070042382743030"
+     crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header id="header" class="fixed-top bg-custom-2">
+        <div class="container d-flex aligh-items-center">
+
+            <h1 class="logo me-auto pt-2">
+                <a href="index.html">Brian's Portfolio</a>
+            </h1>
+
+            <nav id="navbar" class="navbar navbar-dark">
+                <ul>
+                    <li><a href="index.html" class="nav-link active"> Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="about.html#projects" class="nav-link">Projects</a></li>
+                    <li><a href="extras.html" class="nav-link mb-2 mb-md-0">Extras</a></li>
+                    <!-- TODO: link to document should point to the file in the master branch of my resume repo -->
+                    <li><a href="https://github.com/brianobot/Resume/raw/master/_Resume.pdf" class="btn resume-btn justify-content-center mx-2 pe-3" download><i class="fa fa-file mx-2"></i> Get my Resume</a></li>
+                </ul>
+                <i class="nav-link fa fa-search mx-3" onclick="show_darkscreen()"></i>
+                <i class="bi mobile-nav-toggle bi-list"></i>
+    
+            </nav>
+        </div>
+    </header>
+
+    <!-- START OF FULLPAGE DARK SEARCH DIV -->
+    <div class="dark-screen d-none" id="dark-screen">
+        <button type="button" id="close-search" class="btn-close btn-close-white text-white" onclick="close_darkscreen()" aria-label="Close"></button>
+
+        <form action="" method="get" class="search-form">
+            <div class="position-relative">
+                <input type="text" name="search" id="search" class="form-control" pattern=".*\S.*" placeholder="Search page" autofocus onkeyup="searchPageFunction('search')">
+                <i class="fa fa-search" id="search-lens"></i>
+            </div>
+        </form>
+    </div>
+    <!-- END OF FULLPAGE DARK SEARCH DIV -->
+
+    <!-- Start of Main Page Content -->
+    <!-- End of Main Page Content -->
+
+    <footer class="text-white text-center text-lg-start bg-dark">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row mt-4">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-4">About Me</h5>
+    
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                voluptatum deleniti atque corrupti.
+              </p>
+    
+              <p>
+                Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                molestias.
+              </p>
+    
+              <div class="mt-4 mb-3 footer-social-icons">
+                  <!-- Github -->
+                <a href="https://github.com/brianobot/" target="_blank" type="button" title="github profile link" class="btn btn-floating btn-light btn-lg"><i class="fab fa-github"></i></a>
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/in/brian-obot-924b49216/" target="_blank" type="button" title="linkedin profile line" class="btn btn-floating btn-light btn-lg"><i class="fab fa-linkedin"></i></a>
+                <!-- Twitter -->
+                <a href="https://twitter.com/i_am_brian_obot" target="_blank" type="button" title="twitter profile link" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+                <!-- Facebook -->
+                <a href="https://web.facebook.com/profile.php?id=100068591380321" target="_blank" type="button" title="facebook profile link" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h6 class="text-uppercase mb-4 pb-1">Search something in the page</h6>
+    
+              <div class="form-outline form-white mb-4 position-relative">
+                <input type="text" id="formControlLg" class="form-control form-control-lg" placeholder="Search keyword" onkeyup="searchPageFunction('formControlLg')"/>
+              </div>
+    
+              <ul class="fa-ul" style="margin-left: 1.65em;">
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Uyo, Akwa Ibom , Nigeria</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">brianobot9@gmail.com</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-phone"></i></span><a href="tel:+2347018977031" class="ms-2">+234 7018977031</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h6 class="text-uppercase mb-4">Opening hours</h6>
+    
+              <table class="table text-center text-white">
+                <tbody class="fw-normal">
+                  <tr>
+                    <td>Mon - Thu:</td>
+                    <td>8am - 9pm</td>
+                  </tr>
+                  <tr>
+                    <td>Fri - Sat:</td>
+                    <td>8am - 1am</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday:</td>
+                    <td>10pm - 11:30pm</td>
+                  </tr>
+                </tbody>
+              </table>
+    
+            <div class="text-center">
+                <a href="extras.html" target="_blank" class="btn btn-primary mt-3 rounded-pill pe-3"><img loading="lazy" src="images/zoom_img.png" width="30px" height="28.5px" alt="Zoom Meeting icon"> Schedule Zoom Call with Brian</a>
+            </div>
+    
+            </div>
+    
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="index.html">Brian Obot &trade; aka ngin-b &trade;</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+        <!-- Buy me coffee widget -->
+        <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="brianobot" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+        
+        <script async defer src="bootstrap/js/bootstrap.min.js"></script>
+        <script async defer src="js/main.js"></script>
+        
+        <!--Start Google tag (gtag.js) -->
+        <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-0D5MV7MDPD"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          
+          gtag('config', 'G-0D5MV7MDPD');
+        </script>
+        <!--End Google tag (gtag.js) -->
+
+    </body>
+    </html>
