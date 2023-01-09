@@ -5,23 +5,23 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Personal Portfolio Page of Engr. Brian Obot, featuring his Services, Projects, and Open-source software contributions" />
+  <meta name="description" content="Personal Portfolio Page of Engr. Brian Obot, featuring his Services, Projects, and Open-source software contributions" />
 
   <!-- Open Grapg tags -->
   <meta property="og:title" content="Engr. Brian Obot Portfolio" />
   <meta property="og:url" content="https://brianobot.github.io/" />
-  <meta property="og:description"
-    content="Personal Portfolio Page of Engr. Brian Obot, featuring his Services, Projects, and Open-source software contributions" />
+  <meta property="og:description" content="Personal Portfolio Page of Engr. Brian Obot, featuring his Services, Projects, and Open-source software contributions" />
   <meta property="og:image" content="bg-webp" />
   <meta property="og:type" content="portfolio website" />
   <meta property="og:locale" content="en_GB" />
 
+  <!-- Styling Links -->
   <link rel="preload stylesheet" as="style" href="bootstrap/bootstrap-icons/bootstrap-icons.css">
   <link rel="preload stylesheet" as="style" href="bootstrap/css/bootstrap.min.css">
   <link rel="preload stylesheet" as="style" href="fontawesome-free/css/all.min.css">
   <link rel="preload stylesheet" as="style" href="css/style.min.css">
 
+  <!-- Favicon Links -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
   <link rel="icon" type="image\png" sizes="32x32" href="favicon_io/favicon-32x32.png">
   <link rel="icon" type="image\png" sizes="16x16" href="favicon_io/favicon-16x16.png">
@@ -29,11 +29,41 @@
 
   <title>Brian's Portfolio | Home</title>
 
+  <style>
+    :root {
+      --bs-body-font-weight: 370!important;
+    }
+
+    h6 {
+      font-size: 1.1rem!important;
+    }
+
+    .cursor {
+      display: inline-block;
+      background-color: #ccc;
+      color: red;
+      margin-left: 0.1rem;
+      width: 4px;
+      animation: blink 1s infinite;
+    }
+
+    .cursor .typing {
+      animation: none;
+    }
+
+    @keyframes blink {
+      0% { background-color: #ccc;}
+      49% { background-color: #ccc;}
+      50% { background-color: transparent;}
+      99% { background-color: transparent;}
+      100% { background-color: #ccc;}
+    }
+  </style>
+
   <!-- Google Adsense link -->
   <script async defer
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8070042382743030"
     crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -83,12 +113,14 @@
         <div class="col-md-12 pt-5 mb-5">
           <h2 class="greetings">Hello there! <span class="loading-after">I am</span> <br>
             <hr>
-            <span style="font-size: 10px; margin-right: 10px;">Engr.</span><span class="my-name">Brian Obot <span
+            <span class="d-none" style="font-size: 10px; margin-right: 7px;">Engr.</span><span class="my-name">Brian Obot <span
                 class="trade-mark fs-1"><sup>&trade;</sup></span></span>
+
+                <p class="typed-text">Software developer<span class="cursor"></span></p>
           </h2>
           <h3>
             <div>
-              <a href="about.html" class="btn btn-primary px-4 py-2 rounded-pill">About me</a>
+              <a href="about.html" class="btn btn-primary px-4 py-2 mt-3 rounded-pill">About me</a>
             </div>
 
           </h3>
@@ -153,7 +185,7 @@
   <!-- Start of Build your future now section -->
   <section class="text-center my-4 mb-1 pt-4">
     <h4 class="h1">Build your future now!!!</h4>
-    <h5>Contact me on any of the platforms listed</h5>
+    <p class="h6">Contact me on any of the platforms listed</p>
     <div class="contacts">
       <a class="btn btn-outline-dark p-3 px-4 mb-4 mt-2" href="about.html#social-section">Get Social Links</a>
     </div>
@@ -239,8 +271,7 @@
 
           <div class="text-center">
             <a href="extras.html" target="_blank" class="btn btn-primary mt-3 rounded-pill pe-3"><img loading="lazy"
-                src="images/zoom_img.png" width="30px" height="28.5px" alt="Zoom Meeting icon"> Schedule Zoom Call with
-              Brian</a>
+                src="images/zoom_img.png" width="30px" height="28.5px" alt="Zoom Meeting icon"> Schedule Zoom Call with Me</a>
           </div>
 
         </div>

@@ -7,6 +7,7 @@
 
 body {
     font-family: "Roboto", "Open Sans", sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #444444;
     font-size: 1rem;
   }
@@ -21,12 +22,8 @@ body {
     text-decoration: none;
   }
   
-  h1,
   h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  {
     font-family: "Raleway", sans-serif;
   }
   
@@ -121,6 +118,7 @@ body {
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
+    font-weight: 500!important;
     color: #2c4964;
     white-space: nowrap;
     transition: 0.3s;
@@ -341,6 +339,7 @@ body {
     font-weight: bold !important;
     margin-top: 20px !important;
     line-height: 60px !important;
+    letter-spacing: 2.3px;
   }
   
   .container h3 {
