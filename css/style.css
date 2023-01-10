@@ -519,7 +519,7 @@ body {
 @media (max-width: 400px) {
   #hero {
     margin-bottom: 0;
-    height: 55vh;
+    height: 65vh;
   }
 
   #hero .container {
