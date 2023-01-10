@@ -33,6 +33,7 @@
 
         #about-me ul {
             list-style: none;
+            padding-left: 5px;
         }
 
         #about-me ul li {
@@ -52,8 +53,63 @@
             margin-top: 6px !important;
         }
 
+        #about-me .card {
+            border-radius: 10px;
+        }
+
         #about-me .card:hover {
             border: 1px solid white;
+        }
+
+        #skill-stack .container {
+            padding: 5px 30px!important;
+        }
+
+        .skills {
+            padding: 5px 0px!important;
+        }
+
+        #skill-stack .skills>div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10rem;
+            margin-bottom: 0px;
+        }
+
+        @media (max-width:400px){
+            #skill-stack .skills>div {
+                height: 7rem;
+            }
+        }
+
+        @media (min-width:1200px) {
+            #skill-stack .skills>div {
+                height: 13rem;
+            }
+        }
+
+        .skill-badge {
+            border: 2px solid rgb(83, 83, 231);
+            /* background-color: blue; */
+            height: 80%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px;
+            font-size: 55px;
+            color: black;
+        }
+
+        .skill-badge:hover {
+            border: 3px solid rgb(111, 111, 225);
+            border-radius: 20px;
+        }
+
+        .skill-descr {
+            font-size: 15px;
+            font-weight: 400;
         }
 
     </style>
@@ -132,7 +188,7 @@
                     <a href="" class="btn btn-outline-dark mb-3 mt-1 ms-2 ms-md-4">Let's Talk!</a>
                     <a href="" class="btn btn-outline-dark mb-3 mt-1 ms-2">Download My CV</a>
                     <a href="" class="btn btn-outline-dark mb-3 mt-1 ms-2">New</a>
-                    <div class="row mx-1">
+                    <div class="row mx-1 mt-1">
                         <div class="col-md-4 bg-lightk px-0 p-md-2"> 
                             <div class="card bg-dark text-white p-3 mb-2">
                                 <h3><i class="bi bi-person"></i></h3>
@@ -161,12 +217,85 @@
     </section>
 
     <hr class="bg-black fw-bold">
-
+    
+    <!-- Tech stack/skills section -->
+    <section id="skill-stack" class="pt-0 pb-2">
+        <div class="container">
+            <h3 class="h3 text-center text-dark mb-3">My Skills/Tech Stack </h3>
+            <div class="row skills">
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <span class="d-flex flex-column">
+                            <i class="bi bi-github"></i>
+                            <span class="skill-descr d-none d-md-inline-block">(Expert)</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+                <div class="col-3 col-md-2 px-1 px-md-2">
+                    <div class="skill-badge">
+                        <i class="bi bi-github"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="bg-black fw-bold">
     
     <!-- Start of My Project section -->
     <section class="projects pt-3" id="projects">
     <div class="container project-section">
-        <div class="text-center mb-3" style="font-size: 3rem!important;">My Projects </div>
+        <h3 class="h3 text-center mb-3 text-dark fw-bold">My Projects </h3>
         <div class="row gy-4 gx-3">
             <div class="col-md-6 px-md-3">
                 <div class="project-file">
@@ -303,6 +432,12 @@
                                     title="Send Mail">
                                     <i class="bi bi-envelope about-social-icons"></i>
                                 </a>
+                            </span>
+                            <span class="col-12 col-md-6">
+                                <a href="" target="_blank" class="px-2" title="Brian's Instagram Link"><i class="bi bi-instagram about-social-icons"></i></a>
+                                <a href="" target="_blank" class="px-2" title="Brian's Medium Link"><i class="bi bi-medium about-social-icons"></i></a>
+                                <a href="" target="_blank" class="px-2" title="Brian's Telegram Link"><i class="bi bi-telegram about-social-icons"></i></a>
+                                <a href="" target="_blank" class="px-2" title="Brian's Facebook Messenger Link"><i class="bi bi-messenger about-social-icons"></i></a>
                             </span>
                             
                             
