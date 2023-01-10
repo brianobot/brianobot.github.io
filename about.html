@@ -26,9 +26,40 @@
     <link rel="manifest" type="image\png" href="favicon_io/site.webmanifest">
     
     <title>Brian's Portfolio | About</title>
+    <style>
+        .k {
+            height: 100%;
+        }
+
+        #about-me ul {
+            list-style: none;
+        }
+
+        #about-me ul li {
+            margin: 3px 5px;
+            font-size: 24px;
+            background-color: rgb(7, 79, 187);
+            width: 45px;
+            height: 45px;
+            display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+
+        #about-me h3 {
+            margin-top: 6px !important;
+        }
+
+        #about-me .card:hover {
+            border: 1px solid white;
+        }
+
+    </style>
 </head>
 
-<body oncontextmenu="return false;">
+<body oncontextmenu="return true;">
     <header id="header" class="fixed-top">
         <div class="container d-flex aligh-items-center">
 
@@ -73,9 +104,67 @@
     </section>
     <hr class="my-0">
 
+    <!-- about me section -->
+    <section id="about-me" class="py-2 py-md-0">
+        <div class="container">
+            <div class="row">
+                <!-- Possible Avatar Column -->
+                <div class="col-md-5 j p-4 d-none d-lg-block">
+                    <div class="bg-black k"></div>
+                </div>
+                <!-- ABout me text column -->
+                <div class="col-lg-7 j p-md-4">
+                    <div class="row mx-2 px-md-1">
+                        <h3 class="h5 text-dark">About me</h3> 
+                        <p> sdunfs idufns fiusf siuns diufns diusnfd ih h jh jhbjhbjh jhjhbhj jhbjhbjh jhbjhbjhbjh jhbjh jhjbhj 
+                            vyuvuyvuyv uy yuv yuuvyu uyvu uyvuyg uyuybu uyyugu uyvuygvuy uyvuy uyv uyjgubu uyvuy uyv uygv uyvuygvuy4
+                            uvui  ug iu guif yuduyf uyf iy fuig yuif oig oih oigufyuc iu fiyfi ogio goi .
+                        </p>
+                        
+                        <ul class="d-flex">
+                            <li><i class="bi bi-github"></i></li>
+                            <li><i class="bi bi-linkedin"></i></li>
+                            <li><i class="bi bi-facebook"></i></li>
+                            <li><i class="bi bi-instagram"></i></li>
+                            <li><i class="bi bi-envelope"></i></li>
+                        </ul>
+                    </div>
+                    <a href="" class="btn btn-outline-dark mb-3 mt-1 ms-2 ms-md-4">Let's Talk!</a>
+                    <a href="" class="btn btn-outline-dark mb-3 mt-1 ms-2">Download My CV</a>
+                    <a href="" class="btn btn-outline-dark mb-3 mt-1 ms-2">New</a>
+                    <div class="row mx-1">
+                        <div class="col-md-4 bg-lightk px-0 p-md-2"> 
+                            <div class="card bg-dark text-white p-3 mb-2">
+                                <h3><i class="bi bi-person"></i></h3>
+                                <p>Clients</p>
+                                <span>15+</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 bg-lightk px-0 p-md-2">
+                            <div class="card bg-dark text-white p-3 mb-2">
+                                <h3><i class="bi bi-person"></i></h3>
+                                <p>Projects</p>
+                                <span>50+</span> 
+                            </div> 
+                        </div>
+                        <div class="col-md-4 bg-lightk px-0 p-md-2"> 
+                            <div class="card bg-dark text-white p-3 mb-2">
+                                <h3><i class="bi bi-person"></i></h3>
+                                <p>Experience</p> 
+                                <span>4 years +</span>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="bg-black fw-bold">
+
     
     <!-- Start of My Project section -->
-    <section class="projects" id="projects">
+    <section class="projects pt-3" id="projects">
     <div class="container project-section">
         <div class="text-center mb-3" style="font-size: 3rem!important;">My Projects </div>
         <div class="row gy-4 gx-3">
@@ -225,7 +314,7 @@
     </section>
     <!-- end of social link section -->
     
-    <hr>
+    
     <!-- END OF MAIN PAGE CONTENT -->
 
     <footer class="text-white text-start text-lg-start bg-dark">
