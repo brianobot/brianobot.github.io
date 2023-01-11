@@ -27,10 +27,11 @@
     
     <title>Brian's Portfolio | About</title>
     <style>
-        .k {
-            height: 100%;
+        /* Styling for about section */
+        .img-x {
+            object-fit: contain;
         }
-
+        
         #about-me ul {
             list-style: none;
             padding-left: 5px;
@@ -61,6 +62,7 @@
             border: 1px solid white;
         }
 
+        /* Styling for Skills Section */
         #skill-stack .container {
             padding: 5px 30px!important;
         }
@@ -91,20 +93,20 @@
 
         .skill-badge {
             border: 2px solid rgb(83, 83, 231);
-            /* background-color: blue; */
             height: 80%;
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 7px;
-            font-size: 55px;
             color: black;
         }
 
         .skill-badge img {
             width: 100%;
             height: 60%;
+            /* TODO: observe effect of removing the font size below */
+            font-size: 55px;
             object-fit: contain;
             transition: 600ms ease;
         }
@@ -117,16 +119,6 @@
         .skill-badge img:hover {
             height: 70%;
         }
-
-        .skill-descr {
-            font-size: 15px;
-            font-weight: 400;
-        }
-
-        .img-x {
-            object-fit: contain;
-        }
-
     </style>
 </head>
 
