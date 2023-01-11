@@ -9,20 +9,20 @@
 }
 
 /* Styling for Light Theme */
-.theme-light {
+/* .theme-light {
   --color-primary: #2c4964;
   --color-secondary: #fff;
   --color-accent: #fd6f53;
   --font-color: #000000;
-}
+} */
 
 /* Styling for Dark Theme */
-.theme-dark {
-  --color-primary: #fff;
+/* .theme-dark { */
+  /* --color-primary: #fff;
   --color-secondary: #2c4964;
   --color-accent: #fd6f53;
   --font-color-one: #000000;
-}
+} */
 
 body {
     font-family: "Roboto", "Open Sans", sans-serif;
