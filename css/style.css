@@ -1,8 +1,26 @@
 /*------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.bg-dark {
-  background-color: #112436 !important;
+:root {
+  --color-primary: #2c4964;
+  --color-secondary: #fff;
+  --color-accent: #fd6f53;
+  --font-color: #000000;
+}
+/* Styling for Light Theme */
+.theme-light {
+  --color-primary: #2c4964;
+  --color-secondary: #fff;
+  --color-accent: #fd6f53;
+  --font-color: #000000;
+}
+
+/* Styling for Dark Theme */
+.theme-dark {
+  --color-primary: #fff;
+  --color-secondary: #2c4964;
+  --color-accent: #fd6f53;
+  --font-color-one: #000000;
 }
 
 body {
@@ -10,6 +28,10 @@ body {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #444444;
     font-size: 1rem;
+  }
+
+  .bg-dark {
+    background-color: #112436 !important;
   }
   
   a {
@@ -31,7 +53,9 @@ body {
     # Header
     --------------------------------------------------------------*/
   #header {
+    /* TODO: Remove ref to former color attr */
     background: rgb(255, 255, 255);
+    background: var(--color-secondary);
     transition: all 0.5s;
     z-index: 997;
     padding: 9px 0;
@@ -55,7 +79,9 @@ body {
   }
   
   #header .logo a {
+    /* TODO: Remove ref to former color attr */
     color: #2c4964;
+    color: var(--color-primary);
   }
   
   #header .logo img {
@@ -65,14 +91,18 @@ body {
   /** Resume Button */
   .resume-btn {
     background: white;
+    background: var(--color-secondary);
     border: 1px solid black!important;
+    border: 1px solid var(--color-primary)!important;
     border-radius: 50rem!important;
   }
   
   .resume-btn:hover {
     border: 1px solid grey!important;
     background: grey;
+    /* TODO: remove ref to former color attr */
     color: #fff!important;
+    color: var(--color-secondary)!important;
   }
   
   @media (max-width: 768px) {
@@ -117,10 +147,13 @@ body {
     justify-content: space-between;
     font-size: 14px;
     font-weight: 500!important;
+    /* TODO: Remove former ref to color attr */
     color: #2c4964;
+    color: var(--color-primary);
     white-space: nowrap;
     transition: 0.3s;
     border-bottom: 2px solid #fff;
+    border-bottom: 2px solid var(--color-secondary);
     padding: 5px 2px;
   }
   
