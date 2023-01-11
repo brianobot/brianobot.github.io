@@ -1,16 +1,18 @@
+// TODO: deprecate and remove all this function ref
 function show_darkscreen(){
     let dark_screen = document.getElementById('dark-screen');
     dark_screen.classList.remove('d-none');
     console.log(dark_screen.classList);
 }
 
+// TODO: deprecate and remove this function and all it ref
 function close_darkscreen(){
     let dark_screen = document.getElementById('dark-screen');
     dark_screen.classList.add('d-none');
     console.log(dark_screen.classList)
 }
 
-
+// TODO: DEPRECATE and remove this function and all it refs
 function searchPageFunction(search_input_id){
     console.log("Starting search function...");
     console.log("Search Input Id = ", search_input_id);
@@ -19,6 +21,45 @@ function searchPageFunction(search_input_id){
     last_input = query[-1];
     console.log(last_input);
 }
+
+// THEME JS
+// define variables to hold the classname for the 2 themes
+// define variable to hold reference to the switch button
+let theme_dark = 'theme-dark';
+let theme_light = 'theme-light';
+let theme_switch = document.getElementById("theme-switch");
+
+// function to set to a given theme/color-scheme
+function setTheme(themeName){
+    console.log("setting theme to ", themeName);
+    localStorage.setItem('theme', themeName);
+    document.documentElement.className = themeName;
+    if (themeName === theme_dark){
+        theme_switch.classList.add("bi-sun");
+        theme_switch.classList.remove("bi-moon");
+    } else {
+        theme_switch.classList.add("bi-moon");
+        theme_switch.classList.remove("bi-sun");
+    }
+}
+
+// function to toggle between light and dark theme
+function toggleTheme(){
+    if (localStorage.getItem('theme') === theme_dark){
+        setTheme(theme_light);
+    } else {
+        setTheme(theme_dark);
+    }
+}
+
+// Immediately invoke the function to set the theme on initial load
+(function (){
+    if (localStorage.getItem('theme') === theme_dark){
+        setTheme(theme_dark);
+    } else {
+        setTheme(theme_light);
+    }
+})();
 
 /**
 * Javascript used for Navbar gotten from...
