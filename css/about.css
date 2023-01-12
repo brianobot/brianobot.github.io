@@ -84,10 +84,14 @@
 }
 
 /* TODO: test width and height attribute on image */
-.project-tech-stack i {
+.project-tech-stack i,
+.project-tech-stack img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
-    width: 1rem;
-    height: 1rem;
+    width: 1.6rem;
+    height: 1.6rem;
     margin: 0 5px;
     margin-top: 3px;
 }
