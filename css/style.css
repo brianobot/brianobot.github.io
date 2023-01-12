@@ -139,8 +139,8 @@ body {
   }
   
   .resume-btn:hover {
-    border: 1px solid grey!important;
-    background: grey;
+    border: 1px solid rgba(6, 82, 234, 0.642)!important;
+    background: rgba(6, 82, 234, 0.642);
     color: var(--color-secondary)!important;
   }
   
