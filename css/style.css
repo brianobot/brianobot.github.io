@@ -1,6 +1,13 @@
 /*------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
 :root {
   --color-primary: #2c4964;
   --color-secondary: #fff;
@@ -25,7 +32,6 @@
 } */
 
 body {
-    font-family: "Roboto", "Open Sans", sans-serif;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #444444;
     font-size: 1rem;
@@ -54,8 +60,6 @@ body {
     # Header
     --------------------------------------------------------------*/
   #header {
-    /* TODO: Remove ref to former color attr */
-    background: rgb(255, 255, 255);
     background: var(--color-secondary);
     transition: all 0.5s;
     z-index: 997;
@@ -80,8 +84,6 @@ body {
   }
   
   #header .logo a {
-    /* TODO: Remove ref to former color attr */
-    color: #2c4964;
     color: var(--color-primary);
   }
   
@@ -139,8 +141,6 @@ body {
   .resume-btn:hover {
     border: 1px solid grey!important;
     background: grey;
-    /* TODO: remove ref to former color attr */
-    color: #fff!important;
     color: var(--color-secondary)!important;
   }
   
@@ -186,8 +186,6 @@ body {
     justify-content: space-between;
     font-size: 14px;
     font-weight: 500!important;
-    /* TODO: Remove former ref to color attr */
-    color: #2c4964;
     color: var(--color-primary);
     white-space: nowrap;
     transition: 0.3s;
