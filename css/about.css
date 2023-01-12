@@ -29,17 +29,10 @@
     max-height: 14rem;
     border: 1px solid gray;
     border-radius: 4px;
-    /* background-color: antiquewhite; */
-    background-color: rgb(243, 239, 234);
     padding-top: 0.5rem;
     padding-bottom: 0.7rem;
     padding-bottom: 5px;
     overflow-y: auto;
-}
-
-.project-file:hover {
-    background-color: rgb(157, 156, 156)!important;
-    cursor: pointer;
 }
 
 .project-title {

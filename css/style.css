@@ -107,8 +107,24 @@ body {
     font-size: 23px!important;
   }
   
-  .bi-list {
+  .bi-list,
+  .bi-x {
     color: var(--color-primary);
+    font-size: 23px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 3px 4px!important;
+  }
+
+  .bi-list:hover,
+  .bi-x:hover {
+    background-color: rgba(82, 130, 225, 0.478);
+  }
+
+  .bi-list:active,
+  .bi-x:active {
+    border: 2px solid rgba(67, 87, 154, 0.887);
+    padding: 0px 3px;
   }
   
   /** Resume Button */
