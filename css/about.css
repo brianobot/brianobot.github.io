@@ -83,11 +83,19 @@
     overflow-x: scroll;
 }
 
+/* TODO: test width and height attribute on image */
 .project-tech-stack i {
     font-size: 1rem;
+    width: 1rem;
+    height: 1rem;
     margin: 0 5px;
     margin-top: 3px;
 }
+
+.project-tech-stack::-webkit-scrollbar {
+    display: none;
+}
+
 /* End of styling for Projects Section */
 
 
