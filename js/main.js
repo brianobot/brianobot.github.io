@@ -1,12 +1,3 @@
-
-
-// TODO: deprecate and remove this function and all it ref
-function close_darkscreen(){
-    let dark_screen = document.getElementById('dark-screen');
-    dark_screen.classList.add('d-none');
-    console.log(dark_screen.classList)
-}
-
 // TODO: DEPRECATE and remove this function and all it refs
 function searchPageFunction(search_input_id){
     console.log("Starting search function...");
