@@ -1,9 +1,4 @@
-// TODO: deprecate and remove all this function ref
-function show_darkscreen(){
-    let dark_screen = document.getElementById('dark-screen');
-    dark_screen.classList.remove('d-none');
-    console.log(dark_screen.classList);
-}
+
 
 // TODO: deprecate and remove this function and all it ref
 function close_darkscreen(){
