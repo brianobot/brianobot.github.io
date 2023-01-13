@@ -2,4 +2,7 @@
 - Work on the Custom 404 Page
 - Validate Html with W3C HTML Validator
 - Remove all References to In-line CSS
-- 
+- Research How to Improve on backlink and Improve quality of BackLinks to the website
+- Add an XML Sitemap to the website
+- Research on Standard HTMl to Text Ratio
+- Improve on Keyword Usage
