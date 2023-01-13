@@ -405,6 +405,12 @@ body {
     line-height: 60px !important;
     letter-spacing: 2.3px;
   }
+
+  @media (max-width:320px){
+    .greetings .my-name {
+      letter-spacing: 0.3px;
+    }
+  }
   
   .container h3 {
     color: white;
