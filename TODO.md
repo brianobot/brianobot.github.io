@@ -5,7 +5,7 @@
 - Research How to Improve on backlink and Improve quality of BackLinks to the website
 - Add an XML Sitemap to the website
 - Research on Standard HTMl to Text Ratio
-- Improve on Keyword 
+- Improve on Keyword Consistency
 - Improve on the Project List in my Project Section
   - Improve on README Documentation
     - Document dependencies
