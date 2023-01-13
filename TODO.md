@@ -5,4 +5,13 @@
 - Research How to Improve on backlink and Improve quality of BackLinks to the website
 - Add an XML Sitemap to the website
 - Research on Standard HTMl to Text Ratio
-- Improve on Keyword Usage
+- Improve on Keyword 
+- Improve on the Project List in my Project Section
+  - Improve on README Documentation
+    - Document dependencies
+    - Document Installation/Setup Process
+    - Document Usage Process
+    - Document Contribution Approach
+  - Improve on in-code comment documentation
+  - Add Test to process
+    - Reach 100% test coverage
