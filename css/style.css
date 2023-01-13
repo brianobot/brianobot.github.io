@@ -668,3 +668,9 @@ color: #fff;
 h6 {
   font-size: 1.1rem!important;
 }
+
+/* style for appreciaqtion on extra page */
+#appreciation ul {
+  list-style-type: square;
+  padding-left: 35px;
+}
