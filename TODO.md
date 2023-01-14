@@ -16,3 +16,6 @@
   - Improve on in-code comment documentation
   - Add Test to process
     - Reach 100% test coverage
+- Register a Custom Name
+- Link Custom Name with github Pages
+- 
