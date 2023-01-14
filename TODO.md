@@ -6,7 +6,6 @@
 - Add an XML Sitemap to the website
 - Research on Standard HTMl to Text Ratio
 - Improve on Keyword Consistency
-- Update Github Links for New Projects
 - Improve on the Project List in my Project Section
   - Improve on README Documentation
     - Document dependencies
