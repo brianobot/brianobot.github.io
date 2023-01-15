@@ -16,4 +16,4 @@
     - Reach 100% test coverage
 - Register a Custom Name
 - Link Custom Name with github Pages
-- 
+- Increase Count for Homepage!
