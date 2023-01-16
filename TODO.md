@@ -2,7 +2,6 @@
 - Validate Html with W3C HTML Validator
 - Remove all References to In-line CSS
 - Research How to Improve on backlink and Improve quality of BackLinks to the website
-- Add an XML Sitemap to the website
 - Research on Standard HTMl to Text Ratio
 - Improve on Keyword Consistency
 - Improve on the Project List in my Project Section
@@ -16,4 +15,4 @@
     - Reach 100% test coverage
 - Register a Custom Name
 - Link Custom Name with github Pages
-- Increase Count for Homepage!
+- Increase Word Count for Homepage!
