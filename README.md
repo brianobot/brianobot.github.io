@@ -2,7 +2,7 @@
 
 Link: [https://brianobot.github.io](https://brianobot.github.io/)
 
-Personal Page Hosted with Github Pages
+Personal Portfolio Website Hosted with Github Pages
 
 ## Page Content
 - [**Homepage**](https://brianobot.github.io/) : Personal introduction and overview, Links to Activity Updates and Socials
