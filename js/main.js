@@ -40,6 +40,10 @@ function toggleTheme(){
 
 // Frequently asked question section script
 let faq = document.getElementsByClassName("faq-question");
+let faqs = document.getElementsByClassName("faq-question");
+
+console.log("faq = ", faq);
+console.log("faqs = ", faqs);
 
 let i;
 for (i = 0; i < faq.length; i++) {

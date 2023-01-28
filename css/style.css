@@ -713,14 +713,18 @@ h6 {
 }
 
 .faq-card .faq-answer {
-  margin: auto;
-  /* text-align: center; */
-   width: 50%; 
-   padding: auto;
+    margin: auto;
+    text-align: left;
+    width: 90%; 
+    padding: auto;
+    padding-top: 10px;
+}
+
+.faq-card .faq-answer p {
+  margin-bottom: 0;
 }
 
 .faq-card .faq-answer {
-   padding: 0 18px;
    background-color: white;
    display: none;
    overflow: hidden;
