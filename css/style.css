@@ -481,10 +481,10 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-blend-mode: overlay;
-  /* margin-bottom: -100px; */
-  padding-top: 20px!important;
+  padding-top: 13px!important;
 }
 
+/* TODO: Why position relative? */
 #hero .container {
   position: relative;
 }
