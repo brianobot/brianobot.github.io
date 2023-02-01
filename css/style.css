@@ -684,6 +684,57 @@ h6 {
   padding-left: 35px;
 }
 
+/* Styling for frequently asked questions section */
+.faq-card .faq-question {
+  text-align: left;
+  padding: 7px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+
+.faq-card .faq-question:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    color: black;
+    float: right;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.faq-card .faq-question.active:after {
+    content: "\2796";
+    margin-top: 4px;
+    /* Unicode character for "minus" sign (-) */
+}
+
+.faq-card .faq-answer {
+    margin: auto;
+    text-align: left;
+    width: 90%; 
+    padding: auto;
+    padding-top: 10px;
+}
+
+.faq-card .faq-answer p {
+  margin-bottom: 0;
+}
+
+.faq-card .faq-answer {
+   background-color: white;
+   display: none;
+   overflow: hidden;
+}
+
+.faq-question.active,
+.faq-card .faq-question {
+  background-color: #e6edf5;
+}
+
 /* Consulation call section styling */
 .call-h2 {
   margin-top: 10px;
