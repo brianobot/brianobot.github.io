@@ -37,6 +37,21 @@ function toggleTheme(){
     }
 })();
 
+
+// Hack to Fix inpage links not working in mobile screen
+// hack is to remove the navbar-mobile from the classname of the navbar when
+// a link is clicked, this gives allow the user to access the link page section
+// without the mobile navbar hanging over the screen
+function close_navbar(){
+    let navbar = document.getElementById("navbar");
+    if (navbar.classList.contains('navbar-mobile')){  
+        let navbarToggle = document.getElementsByName(".mobile-nav-toggle");
+        navbarToggle.classList.toggle('bi-list');
+        navbarToggle.classList.toggle('bi-x');
+        console.log("rAN!")
+    }
+}
+
 /**
 * Javascript used for Navbar gotten from...
 * Template Name: Medilab - v4.7.1
