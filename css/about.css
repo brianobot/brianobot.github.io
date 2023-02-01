@@ -186,7 +186,6 @@
 }
 
 .skill-badge {
-    border: 2px solid rgb(83, 83, 231);
     height: 80%;
     width: 100%;
     display: flex;
@@ -204,11 +203,6 @@
     font-size: 55px;
     object-fit: contain;
     transition: 600ms ease;
-}
-
-.skill-badge:hover {
-    border: 3px solid rgb(111, 111, 225);
-    border-radius: 20px;
 }
 
 .skill-badge img:hover {
