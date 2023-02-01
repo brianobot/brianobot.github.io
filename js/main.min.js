@@ -38,18 +38,28 @@ function toggleTheme(){
 })();
 
 
-// Hack to Fix inpage links not working in mobile screen
-// hack is to remove the navbar-mobile from the classname of the navbar when
-// a link is clicked, this gives allow the user to access the link page section
-// without the mobile navbar hanging over the screen
-function close_navbar(){
-    let navbar = document.getElementById("navbar");
-    if (navbar.classList.contains('navbar-mobile')){  
-        let navbarToggle = document.getElementsByName(".mobile-nav-toggle");
-        navbarToggle.classList.toggle('bi-list');
-        navbarToggle.classList.toggle('bi-x');
-        console.log("rAN!")
-    }
+// Frequently asked question section script
+let faq = document.getElementsByClassName("faq-question");
+let faqs = document.getElementsByClassName("faq-question");
+
+console.log("faq = ", faq);
+console.log("faqs = ", faqs);
+
+let i;
+for (i = 0; i < faq.length; i++) {
+    faq[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        console.log('clicked faq');
+        this.classList.toggle("active");
+        /* Toggle between hiding and showing the active panel */
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    });
 }
 
 /**
