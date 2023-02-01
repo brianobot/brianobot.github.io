@@ -549,12 +549,12 @@ body {
     margin-bottom: 30px;
   }
 }
-
+/* 
 @media (max-height: 600px) {
   #hero {
     height: 70vh;
   }
-}
+} */
 
 @media (max-width: 380px){
   #hero {
