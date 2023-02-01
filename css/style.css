@@ -859,3 +859,9 @@ h6 {
 .text-span {
   color: #33aed6;
 }
+
+
+#designed-by-link a{
+  font-size: 13px;
+  color: white!important;
+}
