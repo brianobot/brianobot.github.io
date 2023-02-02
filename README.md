@@ -4,6 +4,8 @@ Link: [https://brianobot.github.io](https://brianobot.github.io/)
 
 Personal Portfolio Website Hosted with Github Pages
 
+<img width="100%" src=./images/frontpage_hero.png>
+
 ## Page Content
 - [**Homepage**](https://brianobot.github.io/) : Personal introduction and overview, Links to Activity Updates and Socials
 - [**About**](https://brianobot.github.io/about.html/) : Comprehensive Personal and Professional Information, including but not limited to; 
