@@ -37,7 +37,7 @@ body {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #444444;
     height: 100%;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .bg-dark {
@@ -605,7 +605,7 @@ body {
   align-items: center;
   padding: 0;
   margin: 0;
-  margin: 0 3px;
+  margin-right: 10px;
 }
 
 .footer-social-icons a:hover {
@@ -860,8 +860,35 @@ h6 {
   color: #33aed6;
 }
 
+footer .row>* {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 #designed-by-link a{
   font-size: 13px;
   color: white!important;
+}
+
+.quick-links {
+    padding-left: 20px;
+}
+
+.quick-links li{
+    padding: 2px 0;
+    list-style-type: disc;
+}
+
+.quick-links li a {
+  color: white;
+}
+
+.quick-links li a:before {
+    font-family: 'FontAwesome';
+    content: "\f101";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    line-height: 18px;
+    font-size: 15px;
 }
