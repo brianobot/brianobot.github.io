@@ -42,15 +42,11 @@ function toggleTheme(){
 let faq = document.getElementsByClassName("faq-question");
 let faqs = document.getElementsByClassName("faq-question");
 
-console.log("faq = ", faq);
-console.log("faqs = ", faqs);
-
 let i;
 for (i = 0; i < faq.length; i++) {
     faq[i].addEventListener("click", function () {
         /* Toggle between adding and removing the "active" class,
         to highlight the button that controls the panel */
-        console.log('clicked faq');
         this.classList.toggle("active");
         /* Toggle between hiding and showing the active panel */
         var body = this.nextElementSibling;

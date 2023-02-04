@@ -26,8 +26,8 @@
 } */
 
 /* Styling for Dark Theme */
-/* .theme-dark { */
-  /* --color-primary: #fff;
+/* .theme-dark {
+  --color-primary: #fff;
   --color-secondary: #2c4964;
   --color-accent: #fd6f53;
   --font-color-one: #000000;
@@ -596,6 +596,12 @@ body {
   color: #fff;
 }
 
+/* Referral section styling */
+#referral-section {
+  font-size: 1rem;
+  color: black;
+}
+
 .footer-social-icons a {
   display: inline-flex;
   width: 50px;
@@ -629,7 +635,7 @@ h6 {
 /* Styling for frequently asked questions section */
 .faq-card .faq-question {
   text-align: left;
-  padding: 7px 10px;
+  padding: 10px 10px;
   font-weight: 600;
   cursor: pointer;
   border: none;
@@ -723,7 +729,7 @@ h6 {
   align-items: center;
   border-radius: 24px;
   background-color: #eef3f7;
-  background-image: url(https://uploads-ssl.webflow.com/60aff10…/60aff10…_Pattern%20Shape.svg);
+  background-image: url(../images/pattern_shape.svg);
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -877,13 +883,12 @@ footer .row>* {
 .quick-links li{
     padding: 2px 0;
     list-style-type: disc;
-    list-style-type: square;
   }
 
 .quick-links li a {
   color: white;
 }
-
+/* 
 .quick-links li a:before {
     font-family: 'FontAwesome';
     content: "\f101";
@@ -892,4 +897,4 @@ footer .row>* {
     left: 0;
     line-height: 18px;
     font-size: 15px;
-}
+} */
