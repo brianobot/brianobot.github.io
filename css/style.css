@@ -877,7 +877,8 @@ footer .row>* {
 .quick-links li{
     padding: 2px 0;
     list-style-type: disc;
-}
+    list-style-type: square;
+  }
 
 .quick-links li a {
   color: white;
