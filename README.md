@@ -15,7 +15,7 @@ Personal Portfolio Website Hosted with Github Pages
   - Personal Projects overview
   - Project Collborations Overview
   - Open-source Contributions, etc
-- [**Extras**](https://brianobot.github.io/extras.html/): Extra none self-branding content that would be placed on the site.
+- [**Extras**](https://brianobot.github.io/extras.html): Coming soon! 
 - [**Custom 404 Page**](https://brianobot.github.io/404.html/): Entertaining and Calming Error Message, Link to Home Page, and Link to Report Issue through a Mail or Social Media account
 - Link to latest version of my [**Resume**](https://raw.githubusercontent.com/brianobot/Resume/master/_Resume.pdf)
 
