@@ -22,6 +22,9 @@
   <link rel="preload stylesheet" as="style" href="bootstrap/css/bootstrap.min.css">
   <link rel="preload stylesheet" as="style" href="fontawesome-free/css/all.min.css">
   <link rel="preload stylesheet" as="style" href="css/style.min.css">
+  
+  <!-- Animation on scroll css cdn link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Favicon Links -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
@@ -97,17 +100,17 @@
         <div class="col-md-12 pt-5 mb-5">
           <h2 class="greetings">Hello there 👋🏾!  <span class="loading-after">I am</span> <br>
             <hr>
-            <span class="my-name">Brian Obot <span class="trade-mark fs-1"><sup>&trade;</sup></span></span>
-                <p class="typewrite" data-period="2000" data-type='["💿 Software Developer.", "📝 Technical Writer.", "📡 Electronic Engineer.", "🐍 Python Expert.", "🌐 Django Developer."]' style="color: rgb(175, 173, 173)!important;"><span class="wrap"></span></p>
+            <span class="my-name" data-aos="fade-up" data-aos-duration="100">Brian Obot <span class="trade-mark fs-1"><sup>&trade;</sup></span></span>
+                <p class="typewrite" data-period="1500" data-type='["💿 Software Developer.", "📝 Technical Writer.", "📡 Electronic Engineer.", "🐍 Python Expert.", "🌐 Django Developer."]' style="color: rgb(175, 173, 173)!important;"><span class="wrap"></span></p>
           </h2>
 
           <!-- Short skills/interest introduction -->
-          <p style="color: rgb(197, 193, 193); background-color: rgba(5, 1, 1, 0.701);">A Techie with keen interest in Backend and Infrasture Engineering, Cloud Computing, Data-Engineering and Distributed System. A Budding Backend Engineer with a focus on Developing Scalable, Dynamic and Efficient Systems</p>
+          <p style="color: rgb(197, 193, 193); background-color: rgba(5, 1, 1, 0.701);" data-aos="fade-up" data-aos-duration="1000">A Techie with keen interest in Backend and Infrasture Engineering, Cloud Computing, Data-Engineering and Distributed System. A Budding Backend Engineer with a focus on Developing Scalable, Dynamic and Efficient Systems</p>
 
           <h3>
-            <div>
-              <a href="about.html" class="btn btn-primary px-4 py-2 mt-3 rounded-pill">About me</a>
-              <a href="about.html#social-section" class="btn btn-outline-primary px-4 py-2 mt-3 ms-2 rounded-pill"><i class="bi bi-person-plus"></i> Contact me</a>
+            <div data-aos="fade-up" data-aos-duration="1000">
+              <a href="about.html" class="btn btn-primary px-4 py-2 mt-3 rounded-pillv">About me</a>
+              <a href="about.html#social-section" class="btn btn-outline-primary px-4 py-2 mt-3 ms-2 rounded-pillv border border-primary border-2"><i class="bi bi-person-plus"></i> Contact me</a>
             </div>
           </h3>
 
@@ -196,6 +199,11 @@
 
   <hr>
 
+  <!-- TODO: To be Added! -->
+  <!-- Recommendation section -->
+  <section id="recommendation-section" class="d-none">
+  </section>
+
   <!-- Frequently asked question section -->
   <section id="faq" class="text-center container">
     <h4 class="h1 mb-4">Frequently Asked Questions</h4>
@@ -252,6 +260,38 @@
               <p>A technical writer is a professional information communicator whose task 
 		              is to transfer information between two or more parties, through any medium 
 		              that best facilitates the transfer and comprehension of the information. <a href="https://en.wikipedia.org/wiki/Technical_writer" title="Read on Technical Writer">Read More...</a>
+              </p>
+            </div>
+          </div>
+          <hr class="hr-line">
+        </div>
+        <div class="col-md-6 d-none">
+          <div class="faq-card">
+            <div class="faq-question"><i class="bi bi-question-circle me-2">
+              </i> How do you acquire new Tech skills?
+            </div>
+            <div class="faq-answer">
+              <p>You learn new tech skills by searching the internet, its usually a search away.
+                They are a number of MOOCs (), they usually have new recruitment batch frequently and you could join such a platform, 
+                but if you are solo-learner, using tech-based documentations, blog content, youtube vidoe tutorials and surrounding yourself
+                with people that on a similar journey can greatly improve your learning curve and progress.
+                <a href="https://en.wikipedia.org/wiki/Technical_writer" title="Read on Technical Writer" class="d-none">Read More...</a>
+              </p>
+            </div>
+          </div>
+          <hr class="hr-line">
+        </div>
+        <div class="col-md-6 d-none">
+          <div class="faq-card">
+            <div class="faq-question"><i class="bi bi-question-circle me-2">
+              </i> What was your motivation to learn programming?
+            </div>
+            <div class="faq-answer">
+              <p>Towards the starts of my journey as a software developer, it was usually the hope 
+                of the great possibilties tech had to offer both financially and innovation-wise that served as
+                my primary source of inspiration and motivation to improve on tech skills. But after a considerable 
+                amount of time spent doing techy stuffs, it has become a passion, that is both mentally rewarding and
+                satisfying, ofcourse the financial motivation can not be ignored. <a href="https://en.wikipedia.org/wiki/Technical_writer" title="Read on Technical Writer" class="d-none">Read More...</a>
               </p>
             </div>
           </div>
@@ -373,6 +413,12 @@
   <script async defer src="bootstrap/js/bootstrap.min.js"></script>
   <script async defer src="js/main.min.js"></script>
 
+  <!-- animation on scroll js cdn -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
   <!--Start Google tag (gtag.js) -->
   <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-0D5MV7MDPD"></script>
   <script>
@@ -386,7 +432,6 @@
     gtag('config', 'G-0D5MV7MDPD');
   </script>
   <!--End Google tag (gtag.js) -->
-
 </body>
 
 </html>

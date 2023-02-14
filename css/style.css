@@ -20,6 +20,7 @@
 /* Styling for Light Theme */
 /* .theme-light {
   --color-primary: #2c4964;
+  --color-primary: #0a192f;;
   --color-secondary: #fff;
   --color-accent: #fd6f53;
   --font-color: #000000;
@@ -403,6 +404,7 @@ body {
   
   .greetings .my-name {
     font-size: 50px !important;
+    font-size: clamp(40px, 8vw, 80px);
     font-weight: bold !important;
     margin-top: 20px !important;
     line-height: 60px !important;
@@ -805,28 +807,23 @@ h6 {
   border-radius: 0;
 }
 
+/* TODO: refactor the css for the button below */
 .button-start {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   min-height: 60px;
-  padding-right: 40px;
   padding-left: 40px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
+  padding-right: 40px;
   align-items: center;
+  justify-content: center;
   background-color: #0f49eb;
-  -webkit-transition: box-shadow 300ms ease;
   transition: box-shadow 300ms ease;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
+}
+
+.button-start:hover {
+  color: white!important;
 }
 
 @media screen and (max-width: 479px){
