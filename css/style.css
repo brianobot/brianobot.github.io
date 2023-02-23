@@ -580,24 +580,25 @@ body {
   font-size: 15px;
   font-weight: 400;
   border-radius: 10px;
+  background-blend-mode: overlay;
+  background-size: cover;
   transition: background 0.5s, transform 0.5s;
 } 
 
 .services-list #software-dev {
-  background-image: url(../images/software-dev.jpfg);
-  object-fit: contain;
+  background-image: url(../images/software-dev.jpg);
 }
 
 .services-list #web-design {
-  background-image: url(../images/bg.aviff);
+  background-image: url(../images/web-dev.webp);
 }
 
 .services-list #engineering-analysis {
-  background-image: url(../images/bg.afvif);
+  background-image: url(../images/engine-analysis.jpg);
 }
 
 .services-list #technical-writing {
-  background-image: url(../images/bg.afvif);
+  background-image: url(../images/technical-writing.webp);
 }
 
 .services-list div i{
@@ -607,6 +608,7 @@ body {
 
 .services-list div:hover{
   background: rgb(5, 74, 116);
+  background-size: cover;
   transform: translateY(-10px);
   color: #fff;
 }
