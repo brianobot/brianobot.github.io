@@ -29,7 +29,7 @@
 /* Styling for Dark Theme */
 /* .theme-dark {
   --color-primary: #fff;
-  --color-secondary: #2c4964;
+  --color-secondary: #0a192f;
   --color-accent: #fd6f53;
   --font-color-one: #000000;
 } */
@@ -98,7 +98,7 @@ body {
   .theme-switch {
     color: var(--color-primary);
     font-size: 23px;
-    border: 2px solid transparent;
+    border: 2px solid #588cda;
     border-radius: 10px;
     padding: 3px 8px!important;
   }
