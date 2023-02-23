@@ -574,7 +574,7 @@ body {
 }
 
 .services-list div {
-  background: #6c757d;
+  background: #344b60;
   color: #fff;
   padding: 40px;
   font-size: 15px;
@@ -582,6 +582,23 @@ body {
   border-radius: 10px;
   transition: background 0.5s, transform 0.5s;
 } 
+
+.services-list #software-dev {
+  background-image: url(../images/software-dev.jpfg);
+  object-fit: contain;
+}
+
+.services-list #web-design {
+  background-image: url(../images/bg.aviff);
+}
+
+.services-list #engineering-analysis {
+  background-image: url(../images/bg.afvif);
+}
+
+.services-list #technical-writing {
+  background-image: url(../images/bg.afvif);
+}
 
 .services-list div i{
   font-size: 50px;
