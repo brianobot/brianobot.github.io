@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio Page of Brian Obot, featuring his Services, Projects, and Open-source software contributions">
+  <meta name="keywords" content="Brian Obot, Software Developer, Software Development, Programming, Python Developer, Python Tutor, Python Expert, Django Developer">
+
+  <!-- Open Graph tags -->
+  <meta property="og:title" content="Brian Obot (Software Developer)">
+  <meta property="og:url" content="https://brianobot.github.io/">
+  <meta property="og:description" content="Personal Portfolio Page of Brian Obot, featuring his Services, Projects, and Open-source software contributions">
+  <meta property="og:image" content="https://ibb.co/jTVZXbH">
+  <meta property="og:image:secure_url" content="https://ibb.co/jTVZXbH">
+  <meta property="og:type" content="portfolio website">
+  <meta property="og:locale" content="en_GB">
+
+  <!-- Styling Links -->
+  <link rel="preload stylesheet" as="style" href="bootstrap/bootstrap-icons/bootstrap-icons.css">
+  <link rel="preload stylesheet" as="style" href="bootstrap/css/bootstrap.min.css">
+  <link rel="preload stylesheet" as="style" href="fontawesome-free/css/all.min.css">
+  <link rel="preload stylesheet" as="style" href="css/style.min.css">
+  <link rel="preload stylesheet" as="style" href="css/about.min.css">
+  
+  <!-- Animation on scroll css cdn link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Favicon Links -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image\png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image\png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" type="image\png" href="favicon_io/site.webmanifest">
+
+  <!-- Structured data for website -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brianobot.github.io/"
+      },
+      "headline": "Brian Obot (Software Developer)",
+      "description": "Personal Portfolio of Brian Obot",
+      "image": "https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg",  
+      "author": {
+        "@type": "Person",
+        "name": "Brian Obot",
+        "url": "https://brianobot.github.io/about.html"
+      },  
+      "publisher": {
+        "@type": "Organization",
+        "name": "",
+        "logo": {
+          "@type": "ImageObject",
+          "url": ""
+        }
+      },
+      "datePublished": "2023-01-15",
+      "dateModified": "2023-03-22" 
+    }
+    </script>
+
+  <link rel="canonical" href="https://brianobot.github.io">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <title>Support | Brian Obot (Software Developer)</title>
+  <style>
+    #hero-specialty {
+      color: rgb(175, 173, 173)!important;
+      font-size: 1.3rem;
+    }
+
+    /* styling for copy input field widget */
+    .copy-link {
+      --height: 36px;
+
+      display: flex;
+      max-width: 100%;
+
+    }
+    
+    .copy-input-field {
+      padding: 5px 10px;
+      flex-grow: 1;
+      font-size: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      border: 1px solid #cccccc;
+      border-right: none;
+      outline: none;
+    }
+
+    .copy-input-field:hover {
+      background: #eeeeee ;
+    }
+
+    .copy-link-button {
+      flex-shrink: 0;
+      width: var(--height);
+      height: var(--height);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #dddddd;
+      color: #333333;
+      outline: none;
+      border: 1px solid #cccccc;
+    }
+
+    .copy-link-button:hover {
+      background-color: #cccccc;
+    }
+
+    /* wallet address qrcode */
+    .wallet-addr {
+      width: 70%;
+      height: 70%;
+    }
+
+
+  </style>
+</head>
+
+<body oncontextmenu="return true;">
+  <header id="header" class="fixed-top">
+    <div class="container d-flex aligh-items-center">
+
+      <h1 class="logo me-auto pt-2">
+        <a href="index.html">Brian's Portfolio</a>
+      </h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="nav-link active"> Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="about.html#projects" class="nav-link">Projects</a></li>
+          <li><a href="about.html#social-section" class="nav-link mb-2 mb-md-0">Contact</a></li>
+          <!-- <li><a href="store/app.html" class="nav-link mb-2 mb-md-0">Store</a></li> -->
+          <!-- <li><a href="extras.html" class="nav-link mb-2 mb-md-0">Extras</a></li> -->
+          <li><a href="https://github.com/brianobot/Resume/raw/master/_Resume.pdf"
+              class="btn resume-btn justify-content-center mx-2 pe-3 ps-2" download><i class="bi bi-download mx-2"></i> Get my
+              Resume</a></li>
+        </ul>
+        <i class="d-none bi bi-moon theme-switch mx-3" id="theme-switch" onclick="toggleTheme()"></i>
+        <i class="bi mobile-nav-toggle bi-list"></i>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- Start of hero section -->
+  <section id="hero" style="margin-top: 4.10rem;">
+    <div class="container pt-5">
+        <div class="row">
+            <h2 class="display-1 text-white text-center" style="font-size: 30px;">Support Me</h2>
+            <p class="text-center text-white" style="font-size: 20px;">Show your appreciation for my open-source projects and contents 
+              by sending tips in form of cryptocurreny tokens</p>
+
+            <span class="bi bi-cash-coin text-center text-white mt-3" style="font-size: 60px;"></span>
+
+        </div>
+    </div>
+  </section>
+
+  <!-- Crypto List section -->
+  <section id="skill-stack" class="pt-0 pb-2">
+    <div class="container">
+        <h3 class="h3 text-center text-dark mb-3">Select Crypto to use </h3>
+        <div class="row skills">
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/fluency/256/bitcoin.png" alt="Bitcoin Logo" title="Bitcoin" data-bs-toggle="modal" data-bs-target="#bitcoin-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/fluency/256/ethereum.png" alt="Ethereum Logo" title="Ethereum" data-bs-toggle="modal" data-bs-target="#ethereum-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/color/256/tether--v2.png" alt="Tether Logo" title="Tether" data-bs-toggle="modal" data-bs-target="#tether-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/glyph-neue/256/litecoin.png" alt="Lite Coin Logo" title="LiteCoin" data-bs-toggle="modal" data-bs-target="#litecoin-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/external-black-fill-lafs/1x/external-BNB-cryptocurrency-black-fill-lafs.png" alt="BNB Logo" title="BNB" data-bs-toggle="modal" data-bs-target="#bnb-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/pastel-glyph/256/xrp.png" alt="XRP logo" title="XRP" data-bs-toggle="modal" data-bs-target="#xrp-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/external-black-fill-lafs/256/external-Bitcoin-Cash-cryptocurrency-black-fill-lafs.png" alt="Bitcoin cash Logo" title="Bitcoin cash" data-bs-toggle="modal" data-bs-target="#bitcoin-cash-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/pastel-glyph/256/stellar-cryptocurrency.png" alt="Stellar Logo" title="Stellar" data-bs-toggle="modal" data-bs-target="#stellar-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/nolan/256/solana.png" alt="Solana Logo" title="Solana" data-bs-toggle="modal" data-bs-target="#solana-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/256/external-dash-finance-smashingstocks-glyph-smashing-stocks-2.png" alt="Dash Logo" title="Dash" data-bs-toggle="modal" data-bs-target="#dash-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="images/Polygon-MATIC-Icon.png" alt="Polygon Logo" title="Polygon" data-bs-toggle="modal" data-bs-target="#polygon-modal" />
+                </div>
+            </div>
+            <div class="col-3 col-md-2 px-1 px-md-2">
+                <div class="skill-badge">
+                    <img loading="lazy" src="https://cryptologos.cc/logos/avalanche-avax-logo.png?v=024" alt="Avalance Logo" title="Avalanche" data-bs-toggle="modal" data-bs-target="#avalanche-modal" />
+                </div>
+            </div>
+        </div>
+        <!-- request other crypto -->
+        <div class="text-center">
+          <a class="btn btn-outline-dark p-3 px-4 mb-3 mt-5 text-center" href="https://github.com/brianobot?tab=repositories" target="_blank"> Request a Different Cryptocurrency</a>
+        </div>
+
+      </div>
+  </section>
+ 
+  <!-- Bitcoin Modal -->
+  <div class="modal fade" id="bitcoin-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Send Bitcoin to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/bitcoin_address.jpg" alt="Brian's Bitcoin Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's Bitcoin Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="0x00w9eh89wfef79whe8fw7h8w7hweruh" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Ethereum Modal -->
+  <div class="modal fade" id="ethereum-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel2">Send Ethereum to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/ethereum_address.jpg" alt="Brian's Ethereum Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's Ethereum Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="0xeAa034e151De76A35086BD83116F3177b666AdF3" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tether Modal -->
+  <div class="modal fade" id="tether-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel3">Send USDT to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/tether_address.jpg" alt="Brian's USDT Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's USDT Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="0xeAa034e151De76A35086BD83116F3177b666AdF3" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Litecoin Modal -->
+  <div class="modal fade" id="litecoin-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel4">Send LiteCoin to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/litecoin_address.jpg" alt="Brian's Litecoin Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's Ethereum Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="ltc1qmdxraggnw7yjewj74x05qq55x85tkkq4c8rjza" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BNB Modal -->
+  <div class="modal fade" id="bnb-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel5">Send BNB to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/bnb_address.jpg" alt="Brian's BNB Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's BNB Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="bnb13cms0r2k9a5vr2l5lxd2mellx2hrsjd4xvnh7g" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- XRP Modal -->
+  <div class="modal fade" id="xrp-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel6">Send XRP to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/xrp_address.jpg" alt="Brian's XRP Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's XRP Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="rw8dBdMZPnaHM8tzE4s2GZCaKFVg1nmjxW" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bitcoin cash Modal -->
+  <div class="modal fade" id="bitcoin-cash-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel7">Send BitCoin Cash to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/bitcoin_cash_address.jpg" alt="Brian's BitCoin Cash Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's BitCoin Cash Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="qz6tuf0rpn8qk36f90t88upxwurc8r0euslsx6ta3v" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stellar Modal -->
+  <div class="modal fade" id="stellar-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel8">Send Stellar to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/stellar_address.jpg" alt="Brian's Bitcoin Stellar Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's Stellar Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="GCJKR42QET4XLSD4IORJHLKIFSZAMD756476KD23XIAHUU3AF2TIXNTX" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Solana Modal -->
+  <div class="modal fade" id="solana-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel9">Send Solana to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/solana_address.jpg" alt="Brian's Solana Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's Solana Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="4sjTEFnTghnsT7YYU3TZqVrb1Mik7rmt7bKjgMPfiU8K" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dash Modal -->
+  <div class="modal fade" id="dash-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel10">Send Dash to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/dash_address.jpg" alt="Brian's Dash Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's Dash Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="XdjnjqDWasmBRkVn93udtXoa1CcyRpYJ2m" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Polygon Modal -->
+  <div class="modal fade" id="polygon-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel1">Send Polygon to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/polygon_address.jpg" alt="Brian's Polygon Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's Polygon Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="0xeAa034e151De76A35086BD83116F3177b666AdF3" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Avalanche Modal -->
+  <div class="modal fade" id="avalanche-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel12">Send Avalanche to Brian</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="col-12 text-center">
+            <img src="images/avalanche_address.jpg" alt="Brian's Avalanche Address Qrcode" class="img-fluid wallet-addr">
+          </div>
+          
+          <!-- Start of copy link container -->
+          <label class="fw-bold mt-2">Brian's Avalanche Address:</label>
+          <div class="copy-link">
+            <input type="text" class="copy-input-field" value="0xeAa034e151De76A35086BD83116F3177b666AdF3" placeholder="wallet address" readonly>
+            <button type="button" class="copy-link-button" title="Copy to Clipboard">
+              <span class="material-symbols-outlined"> content_copy </span>
+            </button>
+          </div>
+          <!-- End of copy linl container  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Done</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- schedule consulation call section -->
+  <section id="consultation-call" class="consultation-call">
+    <div class="container-fluid px-0">
+        <div class="cta-banner">
+            <div class="cta-container">
+                <h5 class="call-h2 cta-h2"><span class="text-span">Need Advice?<br></span>Why not schedule a consultation call.</h5>
+                <div class="cta-button-wrap"><a href="https://calendly.com/brianobot/consultation-call" class="button-start w-button">Schedule Consultation</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed-background"></div>
+  </section>
+
+  <footer class="text-white text-start text-lg-start bg-dark">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-5 col-md-12 mb-4 mb-md-0 pe-5">
+          <h6 class="text-uppercase mb-4">Get In Touch</h6>
+
+          <p>
+            If you're interested in my work, my services or looking forward to connect better with me, please do not hesitate to call me.
+            I am open to new collaborations and job offers. 
+          </p>
+
+          <p>
+            I am actively learning new technologies and involved in contributing to open-source materials.
+          </p>
+
+          <div class="mt-4 mb-3 footer-social-icons">
+            <!-- Github -->
+            <a href="https://github.com/brianobot/" target="_blank" type="button" title="github profile link"
+              class="btn btn-floating btn-light btn-lg"><i class="bi bi-github"></i></a>
+            <!-- Linkedin -->
+            <a href="https://www.linkedin.com/in/brian-obot-924b49216/" target="_blank" type="button"
+              title="linkedin profile line" class="btn btn-floating btn-light btn-lg"><i
+                class="bi bi-linkedin"></i></a>
+            <!-- Twitter -->
+            <a href="https://twitter.com/i_am_brian_obot" target="_blank" type="button" title="twitter profile link"
+              class="btn btn-floating btn-light btn-lg"><i class="bi bi-twitter"></i></a>
+            <!-- Facebook -->
+            <a href="https://web.facebook.com/profile.php?id=100068591380321" target="_blank" type="button"
+              title="facebook profile link" class="btn btn-floating btn-light btn-lg"><i
+                class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h6 class="text-uppercase mb-4 pb-1">Contacts</h6>
+
+          <ul class="fa-ul" style="margin-left: 1.65em;">
+            <li class="mb-3">
+              <span class="fa-li"><i class="bi bi-map"></i></span><span class="ms-2"><a href="https://goo.gl/maps/N5pVbkPcuww2JaSPA" target="_blank" class="text-white">Uyo, Akwa Ibom , Nigeria</a></span>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="bi bi-envelope"></i></span><a href="mailto:brianobot9@gmail.com" class="ms-2 text-white">brianobot9@gmail.com</a>
+            </li>
+            <li class="mb-3">
+              <span class="fa-li"><i class="bi bi-telephone"></i></span><a href="tel:+2347018977031" class="ms-2 text-white">+234
+                8073487154</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h6 class="text-uppercase mb-4">Quick Links</h6>
+
+          <ul class="quick-links">
+            <li><a href="about.html#about-section">About Me</a></li>
+            <li><a href="about.html#contact">Contact</a></li>
+            <li><a href="about.html#projects">Projects</a></li>
+            <li><a href="support.html" title="Click here to support me and this site">Support Me</a></li>
+          </ul>
+
+          <div class="text-center">
+            <a href="https://calendly.com/brianobot/consultation-call" target="_blank" class="btn btn-primary mt-3 rounded-pill pe-3"><img loading="lazy"
+                src="images/zoom_img.png" width="30px" height="28.5px" alt="Zoom Meeting icon"> Schedule a Call Session</a>
+          </div>
+
+        </div>
+
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © <script>document.write(new Date().getFullYear())</script> Copyright:
+      <a class="text-white" href="https://brianobot.github.io/">Brian Obot</a><br>
+      <small id="designed-by-link"><a href="https://github.com/brianobot/brianobot.github.io">Designed & Built by Brian Obot</a></small><br>
+    </div>
+    <!-- End of Copyright -->
+  </footer>
+
+  <!-- copy to clipboard script -->
+  <script>
+    document.querySelectorAll(".copy-link").forEach(copyLinkContainer => {
+      const input_field = copyLinkContainer.querySelector('.copy-input-field');
+      const copy_button = copyLinkContainer.querySelector('.copy-link-button');
+      
+      input_field.addEventListener("focus", () => input_field.select());
+
+      copy_button.addEventListener("click", () => {
+        const text = input_field.value;
+        
+        input_field.select();
+        navigator.clipboard.writeText(text);
+
+        input_field.value = 'Copied!';
+        setTimeout(() => input_field.value = text, 2000);
+      })
+    });
+  </script>
+
+  <!-- Buy me coffee widget -->
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="brianobot" data-description="Support me on Buy me a coffee!"
+    data-message="Thank you for visiting, you can support me by buying me coffee 😎" data-color="#5F7FFF"
+    data-position="Right" data-x_margin="18" data-y_margin="18">
+  </script>
+                    
+  <script async defer src="bootstrap/js/bootstrap.min.js"></script>
+  <script async defer src="js/main.min.js"></script>
+
+  <!-- animation on scroll js cdn -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!--Start Google tag (gtag.js) -->
+  <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-0D5MV7MDPD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0D5MV7MDPD');
+  </script>
+  <!--End Google tag (gtag.js) -->
+</body>
+
+</html>
