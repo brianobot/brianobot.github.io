@@ -18,7 +18,7 @@ Personal Portfolio Website Hosted with Github Pages
 - [**Support**](https://brianobot.github.io/support): Crypto Support Page
 - [**Extras**](https://brianobot.github.io/extras.html): Coming soon! 
 - [**Custom 404 Page**](https://brianobot.github.io/404.html/): Entertaining and Calming Error Message, Link to Home Page, and Link to Report Issue through a Mail or Social Media account
-- Link to latest version of my [**Resume**](https://raw.githubusercontent.com/brianobot/Resume/master/_Resume.pdf)
+- Link to latest version of my [**Resume**](https://raw.githubusercontent.com/brianobot/Resume/master/_Brian Obot Resume.pdf)
 
 ## Personal Details
 - **Name**: Brian Obot
