@@ -409,6 +409,7 @@ body {
     margin-top: 20px !important;
     line-height: 60px !important;
     letter-spacing: 2.3px;
+    color: #21a892;
   }
 
   @media (max-width:320px){
