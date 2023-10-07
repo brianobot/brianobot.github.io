@@ -401,7 +401,19 @@ body {
     font-size: 25px !important;
     color: white !important;
   }
-  
+
+  .intro-speech {
+    color: rgb(197, 193, 193);
+    background-color: rgba(5, 1, 1, 0.701);
+    font-size: 150%;
+  }
+
+  @media (max-width:400px){
+    .intro-speech {
+      font-size: 130%;
+    }
+  }
+
   .greetings .my-name {
     font-size: 55px !important;
     font-size: clamp(40px, 8vw, 80px)!important;
@@ -536,7 +548,7 @@ body {
 @media (max-width: 400px) {
   #hero {
     margin-bottom: 0;
-    height: 65vh;
+    height: 75vh;
   }
 
   #hero .container {
