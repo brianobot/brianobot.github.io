@@ -403,13 +403,14 @@ body {
   }
   
   .greetings .my-name {
-    font-size: 50px !important;
+    font-size: 55px !important;
     font-size: clamp(40px, 8vw, 80px)!important;
     font-weight: bold !important;
     margin-top: 20px !important;
     line-height: 60px !important;
     letter-spacing: 2.3px;
-    color: #21a892;
+    color: #358ec9;
+    -webkit-text-stroke: 1px white;
   }
 
   @media (max-width:320px){
