@@ -416,7 +416,7 @@ body {
 
   .greetings .my-name {
     font-size: 55px !important;
-    font-size: clamp(40px, 8vw, 80px)!important;
+    font-size: clamp(50px, 8vw, 80px)!important;
     font-weight: bold !important;
     margin-top: 20px !important;
     line-height: 60px !important;
