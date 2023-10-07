@@ -491,7 +491,7 @@ body {
 /* Start of styling for main page hero */
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   background: grey;
   background-image: url("../images/bg.webp"); /*, url("../images/bg.webp"), url("../images/bg.png"); */
   background-color: rgba(0, 0, 0, 0.7);
@@ -545,6 +545,12 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  #hero {
+    height: 80vh;
+  }
+}
+
 @media (max-width: 400px) {
   #hero {
     margin-bottom: 0;
@@ -566,18 +572,14 @@ body {
     margin-bottom: 30px;
   }
 }
-/* 
-@media (max-height: 600px) {
-  #hero {
-    height: 70vh;
-  }
-} */
 
 @media (max-width: 380px){
   #hero {
     height: 83vh;
   }
 }
+
+
 
 /* Styling for service section */
 .services-list {
