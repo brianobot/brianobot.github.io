@@ -494,6 +494,7 @@ body {
   height: 70vh;
   background: grey;
   background-image: url("../images/bg.webp"); /*, url("../images/bg.webp"), url("../images/bg.png"); */
+  background-image: url("https://as1.ftcdn.net/v2/jpg/06/45/76/88/1000_F_645768816_4QXEAg0NHTuniQdQcoqayoM78Z6vu7zZ.jpg"); /* christmas village background */
   background-color: rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-blend-mode: overlay;
