@@ -1,0 +1,5 @@
+- Use Container based view for future iterations of the website
+# examples
+https://kongulov.dev/blog/repository-pattern-in-laravel-php-design-pattern
+
+- 
