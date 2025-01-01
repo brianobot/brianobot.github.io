@@ -613,6 +613,10 @@ body {
   background-image: url(../images/engine-analysis.jpg);
 }
 
+.services-list #solana-blockchain-development {
+  background-image: url(../images/technical-writing.webp);
+}
+
 .services-list #technical-writing {
   background-image: url(../images/technical-writing.webp);
 }
