@@ -5,6 +5,16 @@ let theme_dark = 'theme-dark';
 let theme_light = 'theme-light';
 let theme_switch = document.getElementById("theme-switch");
 
+// function to close the navbar
+function close_navbar() {
+    let navbar = document.getElementById("navbar");
+    let hamburger = document.getElementsByClassName("mobile-nav-toggle")[0];
+    
+    navbar.classList.remove("navbar-mobile");
+    hamburger.classList.remove("bi-x");
+    hamburger.classList.add("bi-list");
+}
+
 // function to set to a given theme/color-scheme
 function setTheme(themeName){
     console.log("setting theme to ", themeName);
