@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Blog | Brian Obot</title>
-  <meta name="description" content="Insights and articles by Brian Obot on software engineering, Python, Rust, and more.">
+  <meta name="description" content="Collections of Artciles and Blog written and curated by Brian Obot on software Engineering, Python, Rust, and more.">
   <meta property="og:title" content="Blog | Brian Obot">
-  <meta property="og:description" content="Insights and articles by Brian Obot on software engineering, Python, Rust, and more.">
+  <meta property="og:description" content="Collections of Artciles and Blog written and curated by Brian Obot on software Engineering, Python, Rust, and more.">
   <meta property="og:url" content="https://brianobot.github.io/blogs/">
-  <meta property="og:image" content="https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg">
+  <meta property="og:image" content="https://modernmarketing.co.za/wp-content/uploads/2019/03/Successful-Blogging-Space-Topics-.jpg">
+  <meta property="og:image:secure_url" content="https://modernmarketing.co.za/wp-content/uploads/2019/03/Successful-Blogging-Space-Topics-.jpg">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_GB">
 
@@ -17,14 +18,36 @@
   <link rel="stylesheet" href="../fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="../bootstrap/bootstrap-icons/bootstrap-icons.css">
   <link rel="stylesheet" href="../css/style.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> -->
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
   <link rel="manifest" href="../favicon_io/site.webmanifest">
+
+  <style>
+    .blog-tag {
+      color: black;
+      border: none;
+      padding: 8px 10px;
+      margin: 5px;
+      border-radius: 50rem;
+      border: 1px solid transparent;
+    }
+    
+    .blog-tag:hover {
+      border: 1px solid black;
+    }
+
+    #tag-container {
+      margin: auto auto;
+      justify-content: center;
+    }
+  </style>
 </head>
+
+
 <body>
 
   <!-- Header -->
@@ -37,7 +60,7 @@
         <ul>
           <li><a href="../index.html" class="nav-link">Home</a></li>
           <li><a href="../about.html" class="nav-link">About</a></li>
-          <li><a href="index.html" class="nav-link active">Blog</a></li>
+          <li><a href="index.html" class="nav-link active">Blogs</a></li>
           <li><a href="../about.html#projects" class="nav-link">Projects</a></li>
           <li><a href="../about.html#social-section" class="nav-link">Contact</a></li>
           <li><a href="https://docs.google.com/document/d/1q8O224GCpInFMhEHbFgVfyDXQu5dJ0cZZC5wYpwSQvE/edit?usp=sharing"
@@ -51,34 +74,98 @@
   <!-- Main Content -->
   <main class="container mt-5 pt-5">
     <section class="mb-5 text-center">
-      <h2 class="mb-3">Brian's Blog</h2>
-      <p class="lead">Exploring software engineering, Python, Rust, system architecture, and more.</p>
+      <h2 class="mb-3">Brian's Blogs Collection</h2>
+      <p class="lead">Exploring Software Engineering, Python, Rust, System Architecture, and more...</p>
     </section>
+
+    <div class="d-flex flex-row flex-wrap" id="tag-container">
+      <button class="blog-tag" href="#">🐍 Python </button>
+      <button class="blog-tag" href="#">🦀 Rust</button>
+      <button class="blog-tag" href="#">⚡️ FastAPI</button>
+      <button class="blog-tag" href="#">🐍 Django</button>
+      <button class="blog-tag" href="#">🦀 Axum</button>
+      <button class="blog-tag" href="#">🦀 Bevy</button>
+      <button class="blog-tag" href="#">💾 Database</button>
+      <button class="blog-tag" href="#">🌚 Rants</button>
+      <button class="blog-tag" href="#">📜 History</button>
+      <button class="blog-tag" href="#">🎥 Movies</button>
+    </div>
+
+    <hr>
 
     <div class="row">
       <!-- Blog Post 1 -->
-      <div class="col-md-6 mb-4" data-aos="fade-up">
+      <div class="col-md-4 mb-4" data-aos="fade-up">
         <div class="card h-100">
           <img src="https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg" class="card-img-top" alt="Coding vs Programming">
           <div class="card-body">
             <h5 class="card-title">Understanding the Repository Pattern in Laravel</h5>
             <p class="card-text">A deep dive into the repository pattern in Laravel, its benefits, and implementation strategies.</p>
-            <a href="https://kongulov.dev/blog/repository-pattern-in-laravel-php-design-pattern" target="_blank" class="btn btn-primary">Read More</a>
+            <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
           </div>
         </div>
       </div>
 
       <!-- Blog Post 2 -->
-      <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
         <div class="card h-100">
           <img src="https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg" class="card-img-top" alt="Python and Rust">
           <div class="card-body">
             <h5 class="card-title">Integrating Python and Rust for Performance</h5>
             <p class="card-text">Exploring how to combine Python's simplicity with Rust's performance for efficient applications.</p>
-            <a href="#" class="btn btn-primary">Coming Soon</a>
+            <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
           </div>
         </div>
       </div>
+      
+      <!-- Blog Post 2 -->
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100">
+          <img src="https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg" class="card-img-top" alt="Python and Rust">
+          <div class="card-body">
+            <h5 class="card-title">Integrating Python and Rust for Performance</h5>
+            <p class="card-text">Exploring how to combine Python's simplicity with Rust's performance for efficient applications.</p>
+            <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Blog Post 2 -->
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100">
+          <img src="https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg" class="card-img-top" alt="Python and Rust">
+          <div class="card-body">
+            <h5 class="card-title">Integrating Python and Rust for Performance</h5>
+            <p class="card-text">Exploring how to combine Python's simplicity with Rust's performance for efficient applications.</p>
+            <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Blog Post 2 -->
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100">
+          <img src="https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg" class="card-img-top" alt="Python and Rust">
+          <div class="card-body">
+            <h5 class="card-title">Integrating Python and Rust for Performance</h5>
+            <p class="card-text">Exploring how to combine Python's simplicity with Rust's performance for efficient applications.</p>
+            <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100">
+          <img src="https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg" class="card-img-top" alt="Python and Rust">
+          <div class="card-body">
+            <h5 class="card-title">Integrating Python and Rust for Performance</h5>
+            <p class="card-text">Exploring how to combine Python's simplicity with Rust's performance for efficient applications.</p>
+            <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     
@@ -201,11 +288,32 @@
   <script async defer src="../bootstrap/js/bootstrap.min.js"></script>
   <script async defer src="../js/main.min.js"></script>
 
+  <script>
+    function obscure_blog_content() {
+      blog_titles = document.getElementsByClassName("card-title");
+      blog_texts = document.getElementsByClassName("card-text");
+      
+      for (let title of blog_titles) {
+        const original = title.innerHTML;
+        const masked = original.replace(/\S/g, "#");
+        title.innerHTML = masked;
+      }
+      
+      for (let text of blog_texts) {
+        const original = text.innerHTML;
+        const masked = original.replace(/\S/g, "#");
+        text.innerHTML = masked;
+      }
+    }
+
+    obscure_blog_content();
+  </script>
+
   <!-- animation on scroll js cdn -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
-  </script>
+  </script> -->
 
   <!--Start Google tag (gtag.js) -->
   <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-0D5MV7MDPD"></script>
