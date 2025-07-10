@@ -1,42 +1,10 @@
 [
     {
-        "title": "Understanding the Repository Pattern in Laravel",
+        "title": "I Hacked FastAPI's BackgroundTasks to Build Real-Time Progress Updates",
         "image_url": "https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg",
-        "blog_url": "https:/sdifnsodfnsodfnosidnfoisndfos",
-        "description": "Perspiciatis animi deleniti explicabo eaque, porro harum accusamus officiis corporis repudiandae",
-        "tags": ["python", "django", "rust"],
+        "blog_url": "https://medium.com/@brianobot9/behind-the-curtain-building-monitorable-background-jobs-with-fastapi-6f98d0a82a5e",
+        "description": "I Built a FastAPI Endpoint That Runs in the AI Agents in the Background and Talks Back",
+        "tags": ["python", "fastapi", "async", "AI"],
         "button_text": "Coming Soon"
-    },
-    {
-        "title": "Understanding the Repository Pattern in Laravel",
-        "image_url": "https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg",
-        "blog_url": "https:/sdifnsodfnsodfnosidnfoisndfos",
-        "description": "Perspiciatis animi deleniti explicabo eaque, porro harum accusamus officiis corporis repudiandae",
-        "tags": ["python", "django", "rust"],
-        "button_text": "Coming Soon"
-    },
-    {
-        "title": "Understanding the Repository Pattern in Laravel",
-        "image_url": "https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg",
-        "blog_url": "https:/sdifnsodfnsodfnosidnfoisndfos",
-        "description": "Perspiciatis animi deleniti explicabo eaque, porro harum accusamus officiis corporis repudiandae",
-        "tags": ["python", "django", "rust"],
-        "button_text": "Coming Soon"
-    },
-    {
-        "title": "Understanding the Repository Pattern in Laravel",
-        "image_url": "https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg",
-        "blog_url": "https:/sdifnsodfnsodfnosidnfoisndfos",
-        "description": "Perspiciatis animi deleniti explicabo eaque, porro harum accusamus officiis corporis repudiandae",
-        "tags": ["python", "django", "rust"],
-        "button_text": "Coming Soon"
-    },
-    {
-        "title": "Understanding the Repository Pattern in Laravel",
-        "image_url": "https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg",
-        "blog_url": "https:/sdifnsodfnsodfnosidnfoisndfos",
-        "description": "Perspiciatis animi deleniti explicabo eaque, porro harum accusamus officiis corporis repudiandae",
-        "tags": ["python", "django", "rust"],
-        "button_text": "Coming Soon"
-    }   
+    }
 ]

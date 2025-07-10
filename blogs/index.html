@@ -54,10 +54,6 @@
       border-radius: 50rem;
       border: 1px solid black;
     }
-
-    .blog-tag-sm:hover {
-
-    }
   </style>
 </head>
 
@@ -112,7 +108,7 @@
 
     <div class="row", id="blog-row">
       <!-- Blog Post 1 -->
-      <div class="col-md-4 mb-4" data-aos="fade-up">
+      <!-- <div class="col-md-4 mb-4" data-aos="fade-up">
         <div class="card h-100">
           <img src="https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg" class="card-img-top" alt="Coding vs Programming">
           <div class="card-body">
@@ -127,7 +123,7 @@
             <a href="#" target="_blank" class="btn btn-primary">Coming Soon</a>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End of Blog Post 1 -->
 
     </div>
@@ -281,10 +277,10 @@
             <div class="card h-100">
               <img src="${blog.image_url}" class="card-img-top" alt="${blog.title}">
               <div class="card-body">
-                <h5 class="card-title">${blog.title}</h5>
+                <h5 class="card-title"><a href="${blog.blog_url}">${blog.title}</a></h5>
                 <p class="card-text">${blog.description}</p>
                 <p>${tagButtons}</p>
-                <a href="#" target="_blank" class="btn btn-primary">${blog.button_text}</a>
+                <a href="${blog.blog_url}" target="_blank" class="btn btn-primary">${blog.button_text}</a>
               </div>
             </div>
           `;
@@ -313,7 +309,7 @@
     
     load_json_data().then(() => {
       load_blog_data(); // runs only after data is loaded
-      obscure_blog_content();
+      // obscure_blog_content();
     });
   </script>
 
