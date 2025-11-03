@@ -1,10 +1,26 @@
 [
     {
-        "title": "I Hacked FastAPI's BackgroundTasks to Build Real-Time Progress Updates",
-        "image_url": "https://i.ibb.co/7nzKhsw/Coding-vs-programming.jpg",
-        "blog_url": "https://medium.com/@brianobot9/behind-the-curtain-building-monitorable-background-jobs-with-fastapi-6f98d0a82a5e",
+        "title": "I Hacked FastAPI's BackgroundTasks to Build Real-Time Progress Updates <br><br>",
+        "image_url": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*Ke7MyfSfF7xSc2hgKfARlA.png",
+        "blog_url": "https://medium.com/@brianobot9/how-i-hacked-fastapi-backgroundtasks-for-real-time-progress-updates-without-celery-6f98d0a82a5e",
         "description": "I Built a FastAPI Endpoint That Runs in the AI Agents in the Background and Talks Back",
         "tags": ["python", "fastapi", "async", "AI"],
-        "button_text": "Coming Soon"
+        "button_text": "Read More"
+    },
+    {
+        "title": "The Ultimate FastAPI Project Blueprint: Build Scalable, Secure, and Maintainable Systems with Ease, Lessons Learnt from working on large codebases.",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*WtKObzma4Tjsq78gP0dCnw.png",
+        "blog_url": "https://medium.com/@brianobot9/the-ultimate-fastapi-project-blueprint-build-scalable-secure-and-maintainable-systems-with-ease-acbc4e058012",
+        "description": "I’ve refined this structure in production environments",
+        "tags": ["python", "fastapi", "async"],
+        "button_text": "Read More"
+    },
+    {
+        "title": "6 Python Tips That Quietly Level Up Your Code <br><br>",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*usb3lYM1drHvODdhpvnfUA.jpeg",
+        "blog_url": "https://medium.com/@brianobot9/6-python-tips-that-quietly-level-up-your-code-eda5ae65dbaf",
+        "description": "A few understated tricks that separate working code from elegant code.",
+        "tags": ["python", "fastapi", "async"],
+        "button_text": "Read More"
     }
 ]

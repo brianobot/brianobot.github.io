@@ -275,12 +275,12 @@
 
           colDiv.innerHTML = `
             <div class="card h-100">
-              <img src="${blog.image_url}" class="card-img-top" alt="${blog.title}">
+              <img src="${blog.image_url}" class="card-img-top" alt="${blog.title}"  style="height: 300px;">
               <div class="card-body">
                 <h5 class="card-title"><a href="${blog.blog_url}">${blog.title}</a></h5>
                 <p class="card-text">${blog.description}</p>
-                <p>${tagButtons}</p>
-                <a href="${blog.blog_url}" target="_blank" class="btn btn-primary">${blog.button_text}</a>
+                <p style="display: none">${tagButtons}</p>
+                <a href="${blog.blog_url}" target="_blank" class="btn btn-primary" style="display">${blog.button_text} 	&#8594; </a>
               </div>
             </div>
           `;
