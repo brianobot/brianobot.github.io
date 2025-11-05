@@ -22,5 +22,13 @@
         "description": "A few understated tricks that separate working code from elegant code.",
         "tags": ["python", "fastapi", "async"],
         "button_text": "Read More"
+    },
+    {
+        "title": "Zed: The Text Editor Reimagined for the Modern Developer <br><br>",
+        "image_url": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*TZemz2oQq2hRy7XE224OWA.jpeg",
+        "blog_url": "https://medium.com/@brianobot9/zed-the-text-editor-reimagined-for-the-modern-developer-b3d33cc120cf",
+        "description": "Why Zed might just change the way you write software.",
+        "tags": ["Rust", "Zed", "Software Development", "Coding", "Technology"],
+        "button_text": "Read More"
     }
 ]
