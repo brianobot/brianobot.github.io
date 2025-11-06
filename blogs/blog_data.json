@@ -30,5 +30,13 @@
         "description": "Why Zed might just change the way you write software.",
         "tags": ["Rust", "Zed", "Software Development", "Coding", "Technology"],
         "button_text": "Read More"
+    },
+    {
+        "title": "How to generate an ERD for your Database with Python in seconds <br><br>",
+        "image_url": "https://cdn-images-1.medium.com/max/800/1*Pp7swCKiqJXNrlQaL3BdTQ.avif",
+        "blog_url": "https://medium.com/@brianobot9/how-to-generate-an-erd-for-your-database-with-python-in-seconds-017e3cf12f23",
+        "description": "Visualizing How Data Connects and Interacts in your database with Python",
+        "tags": ["Python", "ERD", "Data Visualization"],
+        "button_text": "Read More"
     }
 ]
