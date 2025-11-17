@@ -38,5 +38,13 @@
         "description": "Visualizing How Data Connects and Interacts in your database with Python",
         "tags": ["Python", "ERD", "Data Visualization"],
         "button_text": "Read More"
+    },
+    {
+        "title": "How to Implement Autocomplete Functionality for Your CLI Program in Python <br><br>",
+        "image_url": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*JnidKdrCoovw2brP8UcIFQ.jpeg",
+        "blog_url": "https://medium.com/@brianobot9/how-to-implement-autocomplete-functionality-for-your-cli-program-in-python-d6921cd2b519",
+        "description": "Giving Your Python CLI the Power of Suggestion",
+        "tags": ["Python", "Command Line", "Script", "Coding"],
+        "button_text": "Read More"
     }
 ]
