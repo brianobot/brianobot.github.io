@@ -46,5 +46,13 @@
         "description": "Giving Your Python CLI the Power of Suggestion",
         "tags": ["Python", "Command Line", "Script", "Coding"],
         "button_text": "Read More"
+    },
+    {
+        "title": "Starting today, I’m choosing to go deeper, researching more, experimenting more, and investing real energy into my long-standing game-development hobby with Rust",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*L0jVBrjw4GAjuFIcFK6BFQ.jpeg",
+        "blog_url": "https://medium.com/@brianobot9/starting-today-im-choosing-to-go-deeper-researching-more-experimenting-more-and-investing-real-a11d487f4710",
+        "description": "An academically-minded exploration into game engines, storytelling, and digital universes.",
+        "tags": ["Rust", "Game Development", "Rust Bevy", "Hobby"],
+        "button_text": "Read More"
     }
 ]
