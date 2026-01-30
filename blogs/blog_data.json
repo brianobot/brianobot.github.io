@@ -54,5 +54,21 @@
         "description": "An academically-minded exploration into game engines, storytelling, and digital universes.",
         "tags": ["Rust", "Game Development", "Rust Bevy", "Hobby"],
         "button_text": "Read More"
+    },
+    {
+        "title": "Setting Up Rust Analyzer to work for Non-Cargo-Based Rust Projects",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1224/format:webp/1*usvD-iLmbdwSdRL90GPfag.jpeg",
+        "blog_url": "https://medium.com/@brianobot9/setting-up-rust-analyzer-to-work-for-non-cargo-based-rust-projects-e1aa47cb35c2",
+        "description": "Getting autocomplete, type hints, and navigation in single-file Rust programs — without Cargo.",
+        "tags": ["Rust", "Rust Analyzer", "Rust Project", "Hacking"],
+        "button_text": "Read More"
+    },
+    {
+        "title": "Mastering the Crate and Module System in the Rust Programming Language.",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*iNvE3nAz67kPtWj6",
+        "blog_url": "https://medium.com/@brianobot9/mastering-the-crate-and-module-system-in-the-rust-programming-language-97f216caa448",
+        "description": "Building Scalable Foundations: A Deep Dive into Information Hierarchy, Visibility, and Crate Management",
+        "tags": ["Rust", "Rust Analyzer", "Rust Project", "Hacking"],
+        "button_text": "Read More"
     }
 ]
