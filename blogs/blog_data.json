@@ -70,5 +70,37 @@
         "description": "Building Scalable Foundations: A Deep Dive into Information Hierarchy, Visibility, and Crate Management",
         "tags": ["Rust", "Rust Analyzer", "Rust Project", "Hacking"],
         "button_text": "Read More"
+    },
+    {
+        "title": "Mastering Python Performance: The Small Tweaks That Make Big Speed.",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*T1YBhWFXxsfXrbgX",
+        "blog_url": "https://medium.com/@brianobot9/mastering-python-performance-the-small-tweaks-that-make-big-speed-6be1e4356076?sk=5703f0b5ef4994fa0de4f12b2080d0bc",
+        "description": "The Developer’s Guide to Blazing Fast Python.",
+        "tags": ["Python", "Hack"],
+        "button_text": "Read More"
+    },
+    {
+        "title": "I Finally Understand References and Lifetimes in Rust",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*MQCVkOr-Xh7NnWCI",
+        "blog_url": "https://medium.com/@brianobot9/i-finally-understand-references-and-lifetimes-in-rust-4e2419877b56?sk=299d0622fd4dfdf5bfc06ca839c7d91e",
+        "description": "Key points to help you adapt to the concept of Lifetimes in Rust",
+        "tags": ["Python", "Hack"],
+        "button_text": "Read More"
+    },
+    {
+        "title": "Stop Writing Manual Validation: Master Pydantic to Write Cleaner, Faster Python",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*MJEWLXCiWrCVeLoL",
+        "blog_url": "https://medium.com/@brianobot9/stop-writing-manual-validation-master-pydantic-to-write-cleaner-faster-python-812c6e7062f6?sk=143f6395ec0bd98c022220e67e83712b",
+        "description": "Go beyond basic type hints. Discover how to build robust, production-ready applications with less code using Pydantic’s powerful validation engine",
+        "tags": ["Python", "Pydantic", "Data Validation"],
+        "button_text": "Read More"
+    },
+    {
+        "title": "Common Gotchas When Working with Rust as a Python Developer",
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*IDAPeqaynccIEKHF",
+        "blog_url": "https://medium.com/@brianobot9/common-gotchas-when-working-with-rust-as-a-python-developer-d18d1ccfde25?sk=97c4be67546f1b6fa917acd1afdb87f0",
+        "description": "From Dynamic Ease to Memory Safety: 6 Hard Truths Every Pythonista Faces When Compiling Their First Rust App.",
+        "tags": ["Python", "Rust", "Common Pitfalls"],
+        "button_text": "Read More"
     }
 ]
