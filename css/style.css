@@ -15,24 +15,8 @@
   --color-secondary: #fff;
   --color-accent: #fd6f53;
   --font-color: #000000;
+  --bs-body-font-weight: 370 !important;
 }
-
-/* Styling for Light Theme */
-/* .theme-light {
-  --color-primary: #2c4964;
-  --color-primary: #0a192f;;
-  --color-secondary: #fff;
-  --color-accent: #fd6f53;
-  --font-color: #000000;
-} */
-
-/* Styling for Dark Theme */
-/* .theme-dark {
-  --color-primary: #fff;
-  --color-secondary: #0a192f;
-  --color-accent: #fd6f53;
-  --font-color-one: #000000;
-} */
 
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -190,7 +174,6 @@ h2 {
   color: var(--color-primary);
   white-space: nowrap;
   transition: 0.3s;
-  border-bottom: 2px solid #fff;
   border-bottom: 2px solid var(--color-secondary);
   padding: 5px 2px;
 }
@@ -467,12 +450,9 @@ section {
   background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   background-size: 100%;
   background-clip: text;
-  /* Set the background size and repeat properties. */
-  background-size: 100%;
   background-repeat: repeat;
 
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
+  /* Use the text as a mask for the background, showing the gradient as text color. */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
@@ -660,10 +640,6 @@ section {
   margin-top: -8px;
 }
 
-:root {
-  --bs-body-font-weight: 370 !important;
-}
-
 h6 {
   font-size: 1.1rem !important;
 }
@@ -708,16 +684,13 @@ h6 {
   width: 90%;
   padding: auto;
   padding-top: 10px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
 
 .faq-card .faq-answer p {
   margin-bottom: 0;
-}
-
-.faq-card .faq-answer {
-  background-color: white;
-  display: none;
-  overflow: hidden;
 }
 
 .faq-question.active,
@@ -927,14 +900,3 @@ footer .row>* {
 .quick-links li a {
   color: white;
 }
-
-/* 
-.quick-links li a:before {
-    font-family: 'FontAwesome';
-    content: "\f101";
-    position: absolute;
-    top: 0px;
-    left: 0;
-    line-height: 18px;
-    font-size: 15px;
-} */

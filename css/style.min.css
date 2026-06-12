@@ -11,7 +11,8 @@
     --color-primary: #2c4964;
     --color-secondary: #fff;
     --color-accent: #fd6f53;
-    --font-color: #000000
+    --font-color: #000000;
+    --bs-body-font-weight: 370 !important
 }
 
 body {
@@ -160,7 +161,6 @@ h2 {
     color: var(--color-primary);
     white-space: nowrap;
     transition: .3s;
-    border-bottom: 2px solid #fff;
     border-bottom: 2px solid var(--color-secondary);
     padding: 5px 2px
 }
@@ -433,7 +433,6 @@ section {
     background: linear-gradient(45deg, #f09433 0, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background-size: 100%;
     background-clip: text;
-    background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -611,10 +610,6 @@ section {
     margin-top: -8px
 }
 
-:root {
-    --bs-body-font-weight: 370 !important
-}
-
 h6 {
     font-size: 1.1rem !important
 }
@@ -654,17 +649,14 @@ h6 {
     text-align: left;
     width: 90%;
     padding: auto;
-    padding-top: 10px
+    padding-top: 10px;
+    background-color: #fff;
+    display: none;
+    overflow: hidden
 }
 
 .faq-card .faq-answer p {
     margin-bottom: 0
-}
-
-.faq-card .faq-answer {
-    background-color: #fff;
-    display: none;
-    overflow: hidden
 }
 
 .faq-card .faq-question,
